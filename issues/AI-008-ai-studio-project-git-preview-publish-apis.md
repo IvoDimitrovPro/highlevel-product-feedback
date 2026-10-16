@@ -22,7 +22,8 @@ An agent can code without AI Studio tokens but still needs manual platform steps
 
 ## Expected
 
-- Scoped project list/create/get/update, including **no-generation starter/snapshot project creation** and supported framework/config enumeration.
+- Scoped project list/create/get/update/**clone within the same sub-account** (choose without-history, select destination/folder), including **no-generation starter/snapshot project creation**, idempotent calls and supported framework/config enumeration. Project cloning exists in UI but is not established as an official public API/MCP action.
+- Return clearly defined clone billing/usage behavior (if any), enforce independent project Git repository/branch, and expose a verifiable inventory of **origin versus destination Cloud/Auth/Storage/Secrets/Payments/Chat bindings**. Clone must not silently reuse an origin customer's managed backend or payment resources; a safe zero-shared-resources mode is required for starter distribution.
 - Read Git remote/branch/latest imported commit and Sync History; Pull now / preview build / diagnostic logs / exact preview commit via supported API.
 - Explicit approve/publish and deployed-version readback, rollback, branch-divergence handling and lifecycle webhooks/job statuses.
 - Machine-readable platform-managed/generated files and native resource binding manifest, with independent client IDs/secrets after Snapshot clone/import.
