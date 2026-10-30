@@ -1,0 +1,29 @@
+{
+  "source": "Read-only measurement of the live GoKollab Channel Settings and Edit Channel UI",
+  "observed": "2026-10-30",
+  "referenceViewport": {"width": 2269, "height": 1349},
+  "fontFamily": "SF Pro Display",
+  "edit": {
+    "width": 480,
+    "height": 732.5625,
+    "fields": [
+      {"y": 69, "height": 75},
+      {"y": 156, "height": 75},
+      {"y": 243, "height": 168.5625},
+      {"y": 423.5625, "height": 156},
+      {"y": 591.5625, "height": 77}
+    ],
+    "inputHeight": 32,
+    "descriptionHeight": 125.5625,
+    "visibilityCardHeight": 91,
+    "switchWidth": 28,
+    "switchHeight": 16,
+    "saveWidth": 152,
+    "saveHeight": 32,
+    "titleFontSize": 15,
+    "titleLineHeight": 20
+  },
+  "settings": {"width": 480, "height": 587},
+  "shell": {"headerHeight": 52, "sidebarWidth": 280, "railWidth": 52, "channelRowHeight": 32},
+  "scope": "Component geometry, typography and control styling. English text and sample posts/members are intentional; this is not an assertion of a zero-difference full-page screenshot."
+}
