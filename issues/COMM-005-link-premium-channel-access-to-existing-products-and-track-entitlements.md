@@ -17,19 +17,21 @@ Creators already sell products, course offers, bundles and memberships through t
 
 ## Expected
 
-Keep the Community shell, private-channel page and native settings. Add **Existing Product / Offer** to the channel’s **Pricing** tab. Link one or more existing offers, set channel access duration for each, and choose its existing checkout or sales-page destination. Reuse product pricing, payment options, taxation, discounts and tracking rather than introducing another commerce or page builder.
+Keep the Community shell, private-channel page and native settings. Add **Existing Product / Offer** to the channel’s **Pricing** tab. Link one or more existing offers, set channel access duration for each (including a custom positive number of days), and choose its existing checkout or sales-page destination. Reuse product pricing, payment options, taxation, discounts and tracking rather than introducing another commerce or page builder.
 
 On a visible locked channel, show its description and a direct offer action. With several linked offers, show the available choices and their access benefits. A verified successful order from **any sales route** grants access; a channel-origin purchase returns to the same channel with its normal feed unlocked. Failed/pending payments keep content locked. Product-linked access is never labelled Free.
+
+Recognize an existing buyer’s active eligibility after sign-in and return to the same channel without another order or payment. Keep the original purchase timestamp/source; do not restart an expired bonus. One product/offer can unlock several channels from the same order, with an independent duration for each (for example, 90-day meetings plus a lifetime library).
 
 Use independent purchase, plan, workflow and manual grants. Expiry/refund/revoke affects only the corresponding grant. Keep access while any valid grant remains. Existing members retain their current access when a pricing mapping changes. Snapshot issued policies; backfill existing buyers only through an explicit, previewed operation.
 
 Preserve original order/funnel/UTM/affiliate data and add community/channel origin when the purchase starts there. For purchases elsewhere, keep the original source and record channel access as a benefit. Expose it in existing order/contact history, reporting, exports and workflow conditions.
 
-## Interactive demos and recording guide
+## Interactive demos and requirements
 
-- **[Open the demo guide](https://ivodimitrovpro.github.io/highlevel-product-feedback/)** — one entry point with a short recording walkthrough.
+- **[Open the demo guide](https://ivodimitrovpro.github.io/highlevel-product-feedback/)** — one entry point with a self-guided walkthrough and implementation requirements.
 - [Current behavior](https://ivodimitrovpro.github.io/highlevel-product-feedback/COMM-005-current-behavior.html?scenario=locked) — native channel checkout, About/Pricing/Members and normal unlocked feed.
-- [Proposed behavior](https://ivodimitrovpro.github.io/highlevel-product-feedback/COMM-005-proposed-product-link.html?scenario=locked) — working offer configuration → choice → existing sales-page/checkout handoff → simulated order → unlocked feed; bonus expiry and order attribution.
+- [Proposed behavior](https://ivodimitrovpro.github.io/highlevel-product-feedback/COMM-005-proposed-product-link.html?scenario=locked) — working offer configuration → choice → existing sales-page/checkout handoff → simulated order → unlocked feed; bonus expiry, existing-buyer recognition, one order granting two channels, custom durations and order attribution.
 - [Implementation contract, edge cases and feedback coverage](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/mockups/developer-notes.md).
 
 The English prototypes recreate The Club’s Community shell with its branding and three sample posts. Top buttons switch scenarios; Reset restores sample settings. Current/Proposed settings are separate. No live payment, order, contact or channel is changed. These are interactive reference implementations, not production integrations or copied HighLevel source code.
@@ -38,6 +40,9 @@ The English prototypes recreate The Club’s Community shell with its branding a
 
 - Link a course offer for 90 days and a monthly membership while active. Saving updates the locked channel’s offer choices; either can unlock the same channel.
 - Purchase through the existing offer checkout, with authentication/return handling. Failed/abandoned/pending payment never unlocks posts or protected APIs/media.
+- Recognize a signed-in existing buyer without another purchase. A member without a qualifying order stays locked; an expired bonus is not restarted.
+- One course order grants 90-day meetings and a lifetime Course Library. Expire the meetings: library access remains active.
+- Configure any positive whole-day duration, such as 45; saving updates discovery/checkout, while invalid values are rejected.
 - Purchase through another funnel: the same access mapping works without overwriting that funnel’s attribution.
 - A 90-day bonus expires while membership remains active: the feed stays open. Only removal of the last active grant locks it again.
 - Replayed/out-of-order purchase, refund, renewal and revoke events converge without duplicate grants or accidental loss of unrelated access.

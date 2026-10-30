@@ -14,6 +14,26 @@ const check=(name,value)=>{assert.ok(value,name);report.checks.push(name);};
  try{
   await page.goto(base+'COMM-005-proposed-product-link.html');await a('reset');
   check('Locked posts absent from DOM',await page.locator('.feed-post').count()===0);
+  await s('existing');await a('existingSignIn');await a('unmatchedBuyer');
+  check('Existing member without purchase stays locked',await page.locator('.feed-post').count()===0&&(await page.locator('.status-banner').innerText()).includes('No qualifying purchase'));
+  await a('existingSignIn');await a('expiredBuyer');check('Expired existing bonus does not restart on sign-in',await page.locator('.feed-post').count()===0&&(await page.locator('.status-banner').innerText()).includes('does not restart'));
+  await a('existingSignIn');await a('recognizeBuyer');
+  check('Existing buyer enters without new checkout',await page.locator('.feed-post').count()===2&&await page.locator('[role=dialog]').count()===0&&(await page.locator('.status-banner').innerText()).includes('No new order'));
+  await s('order');check('Existing purchase retains original order and source',(await page.locator('[role=dialog]').innerText()).includes('DEMO-EXISTING-1000')&&(await page.locator('[role=dialog]').innerText()).includes('Original course sales funnel'));await page.keyboard.press('Escape');
+  await s('bundle');await page.locator('#bundleLibraryRow').click();check('Second channel starts locked',await page.locator('.feed-post').count()===0);await a('buyBundle');
+  check('Single order lists both channel benefits',(await page.locator('[role=dialog]').innerText()).includes('Course Library')&&(await page.locator('[role=dialog]').innerText()).includes('90 days'));
+  await a('confirmBundle');check('Same purchase unlocks library',(await page.locator('#channelContent').innerText()).includes('Lifetime access · same Club Course purchase'));
+  await a('bundleEvents');check('Same purchase unlocks meeting feed',await page.locator('.feed-post,.featured-card').count()===3);await a('expireBundle');
+  check('Meeting bonus expiry locks only meetings',await page.locator('.featured-card').count()===0&&(await page.locator('#channelContent').innerText()).includes('meeting bonus has expired'));
+  await page.locator('#bundleLibraryRow').click();check('Lifetime library survives meeting expiry',(await page.locator('#channelContent').innerText()).includes('Lifetime access · same Club Course purchase'));
+  await s('order');check('Bundle remains a single source order',(await page.locator('[role=dialog]').innerText()).includes('DEMO-BUNDLE-1002'));await page.keyboard.press('Escape');
+  await s('admin');await t('pricing');await page.locator('#duration0').selectOption('custom');await page.locator('#days0').fill('45');await a('savePricing');
+  check('Custom days reach guest offer',(await page.locator('.offer-row').innerText()).includes('45 days'));await page.reload();check('Custom days survive reload',(await page.locator('.offer-row').innerText()).includes('45 days'));
+  await a('offer');check('Custom days reach checkout',(await page.locator('[role=dialog]').innerText()).includes('45 days'));await page.keyboard.press('Escape');
+  await s('admin');await t('pricing');
+  for(const invalid of ['0','-1','1.5','']){await page.locator('#days0').fill(invalid);await a('savePricing');check('Invalid custom duration rejected: '+(invalid||'empty'),await page.locator('#settingsError').isVisible());}
+  await page.keyboard.press('Escape');await a('reset');
+
   await s('admin');await t('pricing');await a('addOffer');await a('savePricing');
   check('Saved mappings produce two offer choices',await page.locator('[data-action="offer"]').count()===2);
   await page.reload();check('Settings survive reload',await page.locator('[data-action="offer"]').count()===2);
@@ -34,7 +54,7 @@ const check=(name,value)=>{assert.ok(value,name);report.checks.push(name);};
   check('Hidden channel disappears for nonmember',!await page.locator('#channelRow').isVisible()&&await page.locator('.feed-post').count()===0);
   await s('admin');await a('managers');await page.locator('#addManager').check();await a('saveManagers');check('Manager addition updates list',(await page.locator('#sampleMember').innerText()).includes('Manager'));await page.keyboard.press('Escape');
   await a('reset');await shot('proposed-locked');await s('admin');await t('pricing');await a('addOffer');await shot('proposed-settings');await a('savePricing');await s('unlocked');await shot('proposed-unlocked');
-  for(const width of [1920,1024,390]){await page.setViewportSize({width,height:width===390?844:1080});await s('locked');check(`No page overflow at ${width}`,await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await s('admin');await t('pricing');check(`Settings fit viewport at ${width}`,await page.locator('[role=dialog]').evaluate(el=>{const r=el.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&r.top>=0&&r.bottom<=innerHeight;}));await page.keyboard.press('Escape');if(width===390)await shot('proposed-mobile');}
+  for(const width of [1920,1024,390]){await page.setViewportSize({width,height:width===390?844:1080});await s('locked');check(`Toolbar does not cover app header at ${width}`,await page.evaluate(()=>document.querySelector('.demo-bar').getBoundingClientRect().bottom<=document.querySelector('.topbar').getBoundingClientRect().top));check(`No page overflow at ${width}`,await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await s('admin');await t('pricing');check(`Settings fit viewport at ${width}`,await page.locator('[role=dialog]').evaluate(el=>{const r=el.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&r.top>=0&&r.bottom<=innerHeight;}));await page.keyboard.press('Escape');if(width===390)await shot('proposed-mobile');}
   await page.setViewportSize({width:1440,height:1000});await page.goto(base+'COMM-005-current-behavior.html');await a('reset');
   check('Current uses channel checkout, not products',await page.locator('[data-action=checkout]').count()===1&&await page.locator('[data-action=offer]').count()===0);
   await a('checkout');await page.locator('input[value=annual]').check();check('Annual billing updates total',(await page.locator('#checkoutTotal').innerText()).includes('290 / year'));await page.keyboard.press('Escape');
