@@ -10,6 +10,16 @@ The locked channel keeps its description and privacy boundary. With one linked o
 
 Custom copy, images, forms, quizzes and surveys belong to the existing offer/funnel/content tools. The channel description provides concise context; its action can open that existing surface. A supported workflow may grant access after a qualifying form/quiz/survey event. Merely opening a URL or submitting an arbitrary form never proves paid eligibility. Do not imply that every form trigger is already supported.
 
+## Existing buyers and multi-channel purchases
+
+Before showing a new purchase requirement, check the signed-in member’s existing eligible orders and grants. If identity is not established, provide an “Already purchased?” sign-in route and preserve the channel return URL. Recognized active eligibility opens the same channel without a second order or payment. A member without a qualifying purchase remains locked with normal offer choices. An expired or refunded purchase must not unlock access or restart its original bonus period just because the member signs in. Use the original order source and purchase timestamp; never relabel that historical purchase as a new channel sale.
+
+One product/offer may be linked to several channels. Evaluate and issue a distinct grant for each eligible channel from the same source order. For example, Club Course → Events in the Club for 90 days and Course Library for lifetime. Expiring the first grant does not expire the other, revoke the purchased course, or create another order. Configure these mappings in each channel’s existing Pricing tab; no separate bundle product or new global settings screen is required. Removing a channel mapping still follows the prospective-change/migration policy below.
+
+Fixed periods accept a configurable positive whole number of days, not just 30/90-day presets. The prototype offers a Custom number of days field. The selected value is shown in channel discovery, the checkout benefit and the resulting grant; store the original purchase time and calculate expiry consistently. Reject zero, negative, fractional or invalid input without saving.
+
+The public Proposed demo exposes **Existing buyer** and **One purchase · 2 channels** directly in its top bar. The same sample Club Course is reused; no additional product catalog is implied.
+
 ## One access model, multiple independent grants
 
 Suggested records, using existing identities wherever possible:
@@ -65,7 +75,10 @@ Keep existing product taxation, payment methods, discounts, affiliate attributio
 3. Buy the qualifying offer from an unrelated funnel. The same channel unlocks while the original funnel attribution remains intact.
 4. Expire the course grant while membership remains active. Access continues. End the last grant: posts lock again; the member can renew.
 5. Repeat/refund/revoke an event and deliver it out of order. No duplicate access, premature lockout or discarded manual/plan grant.
-6. Repeat discovery, selection, authentication and return in responsive web and the native apps. Verify app-specific purchase restrictions explicitly.
+6. Sign in as an existing course customer: open the same channel without a new checkout/order, preserving the old order’s timestamp and sales source. An ineligible member stays locked; an expired bonus is not reset.
+7. From one course order, open both a fixed-period meeting channel and a lifetime library. Expire the meeting grant: the library remains readable and no new order is created.
+8. Configure a custom 45-day period, save and reload. The locked channel and checkout show 45 days; zero/negative/fractional values are rejected.
+9. Repeat discovery, selection, authentication and return in responsive web and the native apps. Verify app-specific purchase restrictions explicitly.
 
 ## Evidence checked on 2026-10-30
 
