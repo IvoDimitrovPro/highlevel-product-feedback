@@ -40,6 +40,8 @@ const check=(name,value)=>{assert.ok(value,name);report.checks.push(name);};
   await a('checkout');await page.locator('input[value=annual]').check();check('Annual billing updates total',(await page.locator('#checkoutTotal').innerText()).includes('290 / year'));await page.keyboard.press('Escape');
   await s('free');check('Current free-visible does not invent request button',await page.locator('[data-action=request]').count()===0);
   await s('admin');await t('pricing');check('Current pricing has three native modes',await page.locator('input[name=mode]').count()===3);await page.locator('input[value=oneTime]').check();await a('savePricing');await a('checkout');check('One-time selection opens one-time checkout',(await page.locator('[role=dialog]').innerText()).includes('One-time channel purchase'));await page.keyboard.press('Escape');
+  await s('admin');await t('pricing');await page.locator('input[value=recurring]').check();await page.locator('#currency').selectOption('USD');await page.locator('#monthly').fill('39');await a('savePricing');await a('checkout');check('Saved currency and price reach checkout',(await page.locator('#checkoutTotal').innerText()).includes('$39'));await page.keyboard.press('Escape');
+  await s('admin');await a('editChannel');await page.locator('#editReadonly').check();await a('saveChannel');await page.keyboard.press('Escape');await s('unlocked');check('Read-only channel hides member composer',await page.locator('.composer').count()===0);
   await a('reset');await shot('current-locked');
   await page.goto(base+'index.html');check('Guide opens both executable demos',await page.locator('a[href*="COMM-005-"]').count()===2);
   check('No runtime/network errors',report.errors.length===0);report.result='PASS';
