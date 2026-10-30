@@ -108,3 +108,7 @@ Live admin inspection of The Club confirmed the channel feed, Community shell, A
 - [Ivo’s curated Zoom feedback](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/zoom-feedback-index-2026.md) and the Premium Channels discussion supplied by Ivo, including existing-product sales, channel attribution, custom sales surfaces, forms and temporary bonuses.
 
 The Ideas Board status labels lag the documented release in places. Treat the newer official capability documentation and observed UI as evidence of what exists, rather than describing every historical request as still missing.
+
+## UI fidelity reference
+
+Channel Settings and Edit Channel were measured against the live GoKollab admin interface on 2026-10-30. The shared UI uses its SF Pro Display font, native modal geometry, input/switch/card styling and layout. The proposed modes extend the same controls. Curated source metrics live in native-reference-metrics.json; verify_channel_native_ui.cjs checks both prototypes against those external measurements. This verifies component geometry and typography, not identity of every screenshot pixel: the public demo intentionally uses English text, sample members and sample feed content.

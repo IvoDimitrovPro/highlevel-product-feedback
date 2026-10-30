@@ -76,6 +76,12 @@ Also support **description + custom button/URL** as a standalone locked-page opt
 
 ![Proposed unlocked feed](https://raw.githubusercontent.com/IvoDimitrovPro/highlevel-product-feedback/main/output/playwright/COMM-005-proposed-unlocked.png)
 
+## UI reference
+
+The shared Channel Settings/Edit Channel components use measurements from the live GoKollab UI: the same font, 480px modal, icon picker, switches, Visible/Hidden cards, description counter and native pricing cards. Proposed access modes extend those components. English text and sample posts/members are intentional.
+
+![Channel edit in the shared native UI](https://raw.githubusercontent.com/IvoDimitrovPro/highlevel-product-feedback/main/output/playwright/COMM-005-native-edit-channel.png)
+
 ## Evidence
 
 - [Existing Forms/Surveys/Quizzes embedding — official docs](https://help.gohighlevel.com/support/solutions/articles/155000009336-integrate-tab-in-highlevel-s-form-survey-quizzes)
