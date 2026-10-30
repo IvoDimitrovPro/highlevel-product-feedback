@@ -1,0 +1,48 @@
+// Uses the Universe checkout's existing Playwright dependency; no install needed.
+const {chromium}=require('../../../../Apps/The-Pulse/node_modules/playwright-core');
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const base=process.env.CHANNEL_DEMO_BASE||'http://127.0.0.1:8848/mockups/';
+const out=path.resolve(__dirname,'../output/premium-review');fs.mkdirSync(out,{recursive:true});
+const report={timestamp:new Date().toISOString(),base,checks:[],errors:[]};
+const check=(name,value)=>{assert.ok(value,name);report.checks.push(name);};
+(async()=>{
+ const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}});
+ page.on('pageerror',e=>report.errors.push(e.message));page.on('response',r=>{if(r.status()>=400)report.errors.push(`${r.status()} ${r.url()}`);});
+ const a=x=>page.locator(`[data-action="${x}"]`).click(),s=x=>page.locator(`[data-scenario="${x}"]`).click(),t=x=>page.locator(`[data-tab="${x}"]`).click();
+ const shot=async name=>{await page.locator('#toast').waitFor({state:'hidden'});await page.screenshot({path:path.join(out,name+'.png'),fullPage:true});};
+ try{
+  await page.goto(base+'COMM-005-proposed-product-link.html');await a('reset');
+  check('Locked posts absent from DOM',await page.locator('.feed-post').count()===0);
+  await s('admin');await t('pricing');await a('addOffer');await a('savePricing');
+  check('Saved mappings produce two offer choices',await page.locator('[data-action="offer"]').count()===2);
+  await page.reload();check('Settings survive reload',await page.locator('[data-action="offer"]').count()===2);
+  await page.locator('[data-action="offer"][data-offer="membership"]').click();
+  check('Offer opens its existing sales-page handoff',await page.locator('[data-action="continueCheckout"]').count()===1);
+  await a('continueCheckout');check('Chosen product reaches matching checkout',(await page.locator('[role=dialog]').innerText()).includes('€29'));
+  await a('failPayment');check('Payment failure leaves access locked',await page.locator('#checkoutError').isVisible()&&await page.locator('.feed-post').count()===0);
+  await a('pay');check('Successful purchase returns to three-post feed',await page.locator('.feed-post,.featured-card').count()===3&&await page.locator('[role=dialog]').count()===0);
+  await s('order');check('Order identifies purchased membership',(await page.locator('[role=dialog]').innerText()).includes('Club Membership'));await a('returnFeed');
+  await s('overlap');await a('expireBonus');check('Bonus expiry retains membership access',await page.locator('.feed-post').count()===2&&(await page.locator('.status-banner').innerText()).includes('stays unlocked'));
+  await a('endMembership');check('Last grant removal relocks posts',await page.locator('.feed-post').count()===0&&await page.locator('[data-action=offer]').count()===2);
+  await s('admin');await t('pricing');await page.locator('#offer1').selectOption('course');await a('savePricing');check('Duplicate mapping is rejected',await page.locator('#settingsError').isVisible());await page.keyboard.press('Escape');
+  await s('admin');await a('editChannel');await page.locator('#editName').fill('Club calls');await page.locator('#editIcon').selectOption('⭐');await a('saveChannel');
+  check('Channel Edit updates name and icon',(await page.locator('#channelName').innerText())==='Club calls'&&(await page.locator('#channelIcon').innerText())==='⭐');
+  await t('members');await page.locator('#memberSearch').fill('nobody');check('Member search filters list',await page.locator('#memberList .admin-line:visible').count()===0);await page.keyboard.press('Escape');
+  await s('admin');await t('pricing');await page.locator('input[name=mode][value=free]').check();await a('savePricing');await a('request');check('Free request is pending, not unlocked',await page.locator('[data-action=request]').isDisabled()&&await page.locator('.feed-post').count()===0);
+  await s('admin');await a('editChannel');await page.locator('#editVisibility').selectOption('hidden');await a('saveChannel');await page.keyboard.press('Escape');
+  check('Hidden channel disappears for nonmember',!await page.locator('#channelRow').isVisible()&&await page.locator('.feed-post').count()===0);
+  await s('admin');await a('managers');await page.locator('#addManager').check();await a('saveManagers');check('Manager addition updates list',(await page.locator('#sampleMember').innerText()).includes('Manager'));await page.keyboard.press('Escape');
+  await a('reset');await shot('proposed-locked');await s('admin');await t('pricing');await a('addOffer');await shot('proposed-settings');await a('savePricing');await s('unlocked');await shot('proposed-unlocked');
+  for(const width of [1920,1024,390]){await page.setViewportSize({width,height:width===390?844:1080});await s('locked');check(`No page overflow at ${width}`,await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await s('admin');await t('pricing');check(`Settings fit viewport at ${width}`,await page.locator('[role=dialog]').evaluate(el=>{const r=el.getBoundingClientRect();return r.left>=0&&r.right<=innerWidth&&r.top>=0&&r.bottom<=innerHeight;}));await page.keyboard.press('Escape');if(width===390)await shot('proposed-mobile');}
+  await page.setViewportSize({width:1440,height:1000});await page.goto(base+'COMM-005-current-behavior.html');await a('reset');
+  check('Current uses channel checkout, not products',await page.locator('[data-action=checkout]').count()===1&&await page.locator('[data-action=offer]').count()===0);
+  await a('checkout');await page.locator('input[value=annual]').check();check('Annual billing updates total',(await page.locator('#checkoutTotal').innerText()).includes('290 / year'));await page.keyboard.press('Escape');
+  await s('free');check('Current free-visible does not invent request button',await page.locator('[data-action=request]').count()===0);
+  await s('admin');await t('pricing');check('Current pricing has three native modes',await page.locator('input[name=mode]').count()===3);await page.locator('input[value=oneTime]').check();await a('savePricing');await a('checkout');check('One-time selection opens one-time checkout',(await page.locator('[role=dialog]').innerText()).includes('One-time channel purchase'));await page.keyboard.press('Escape');
+  await a('reset');await shot('current-locked');
+  await page.goto(base+'index.html');check('Guide opens both executable demos',await page.locator('a[href*="COMM-005-"]').count()===2);
+  check('No runtime/network errors',report.errors.length===0);report.result='PASS';
+ }catch(e){report.result='FAIL';report.failure=e.stack;process.exitCode=1;}
+ finally{fs.writeFileSync(path.join(out,'verification.json'),JSON.stringify(report,null,2));await browser.close();console.log(JSON.stringify(report,null,2));}
+})().catch(e=>{console.error(e);process.exitCode=1;});

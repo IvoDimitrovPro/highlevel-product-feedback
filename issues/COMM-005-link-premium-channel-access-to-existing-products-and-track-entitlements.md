@@ -9,67 +9,65 @@
 
 ## Observed
 
-Private channels already support Visible or Hidden visibility and Free, one-time, or recurring channel checkout. Visible channels show channel information but keep posts locked. Private-channel workflow actions already grant or revoke access. Community pricing plans can include channels.
+Private channels already support Visible/Hidden visibility and Free, one-time or recurring channel checkout. Private-channel workflow actions grant/revoke access; Community pricing plans can include channels. The October 27 official docs and the October 30 live admin inspection establish these capabilities even where Ideas Board labels still say “in progress”.
 
 ## Why it matters
 
-Creators already sell courses, bundles, and memberships through Products/Offers. A separate channel-only checkout splits the purchase from the sales page, automations, analytics, and order history. One purchase-linked access rule should work with existing checkouts and workflows, including temporary bonuses that overlap with another active purchase.
+Creators already sell products, course offers, bundles and memberships through their existing sales pages and commerce setup. A standalone channel checkout disconnects this purchase from the existing offer, automations and reporting. Temporary bonuses also need to expire without removing access granted by another active purchase.
 
 ## Expected
 
-Extend the existing private-channel flow and keep the Community, channel sidebar, feed, and settings modal. In the private channel's **Pricing** settings, add **Existing Product / Offer** beside Free, Recurring, and One-time. Let an admin select one or more existing offers and set the channel-access duration for each. Reuse each offer's checkout, price, and sales setup.
+Keep the Community shell, private-channel page and native settings. Add **Existing Product / Offer** to the channel’s **Pricing** tab. Link one or more existing offers, set channel access duration for each, and choose its existing checkout or sales-page destination. Reuse product pricing, payment options, taxation, discounts and tracking rather than introducing another commerce or page builder.
 
-For a visible locked channel, show the existing channel information and a clear action to continue to its linked offer. If one offer is linked, use one direct action; if several are linked, show the member the available offers with their labels and purchase actions. Keep posts locked until a qualifying order succeeds, then return the buyer to the same channel with the normal feed unlocked.
+On a visible locked channel, show its description and a direct offer action. With several linked offers, show the available choices and their access benefits. A verified successful order from **any sales route** grants access; a channel-origin purchase returns to the same channel with its normal feed unlocked. Failed/pending payments keep content locked. Product-linked access is never labelled Free.
 
-Record which product/offer and channel granted access on the order/contact history so reports and workflows can use it. Model every qualifying purchase, manual grant, or workflow grant as its own access grant. An expiry, refund, cancellation, or revoke removes only the matching grant; the member keeps access while another valid grant remains. Existing manual membership and workflow grant/revoke actions use the same rule.
+Use independent purchase, plan, workflow and manual grants. Expiry/refund/revoke affects only the corresponding grant. Keep access while any valid grant remains. Existing members retain their current access when a pricing mapping changes. Snapshot issued policies; backfill existing buyers only through an explicit, previewed operation.
 
-Support the same locked discovery, checkout handoff, and unlocked channel behavior on mobile. Never label product-linked access as **Free**. This is a focused extension of channel pricing and access; the offer's existing checkout or sales page remains the sales-content surface.
+Preserve original order/funnel/UTM/affiliate data and add community/channel origin when the purchase starts there. For purchases elsewhere, keep the original source and record channel access as a benefit. Expose it in existing order/contact history, reporting, exports and workflow conditions.
+
+## Interactive demos and recording guide
+
+- **[Open the demo guide](https://ivodimitrovpro.github.io/highlevel-product-feedback/)** — one entry point with a short recording walkthrough.
+- [Current behavior](https://ivodimitrovpro.github.io/highlevel-product-feedback/COMM-005-current-behavior.html?scenario=locked) — native channel checkout, About/Pricing/Members and normal unlocked feed.
+- [Proposed behavior](https://ivodimitrovpro.github.io/highlevel-product-feedback/COMM-005-proposed-product-link.html?scenario=locked) — working offer configuration → choice → existing sales-page/checkout handoff → simulated order → unlocked feed; bonus expiry and order attribution.
+- [Implementation contract, edge cases and feedback coverage](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/mockups/developer-notes.md).
+
+The English prototypes recreate The Club’s Community shell with its branding and three sample posts. Top buttons switch scenarios; Reset restores sample settings. Current/Proposed settings are separate. No live payment, order, contact or channel is changed. These are interactive reference implementations, not production integrations or copied HighLevel source code.
 
 ## Acceptance examples
 
-- An admin links an existing course offer to **Срещи в Клуба** and selects 90 days. A buyer sees the offer, completes its existing checkout, and returns to the same channel with posts unlocked.
-- An admin can link a second offer, such as a monthly membership, and choose a different access duration for it.
-- The purchase/order and contact history identify both the purchased offer and the channel access it granted; this attribution is available to reporting and workflow conditions.
-- A 90-day course bonus expires while a separate monthly membership remains active; the channel stays open. A refund or revoke removes only the matching grant.
-- An existing workflow can grant or revoke channel access through the same entitlement rule. Forms, quizzes, and surveys can use those actions when their supported workflow triggers fire; no separate channel-specific form integration is needed.
-- Non-members cannot read posts before they have a valid grant. The same behavior is usable on desktop and mobile.
+- Link a course offer for 90 days and a monthly membership while active. Saving updates the locked channel’s offer choices; either can unlock the same channel.
+- Purchase through the existing offer checkout, with authentication/return handling. Failed/abandoned/pending payment never unlocks posts or protected APIs/media.
+- Purchase through another funnel: the same access mapping works without overwriting that funnel’s attribution.
+- A 90-day bonus expires while membership remains active: the feed stays open. Only removal of the last active grant locks it again.
+- Replayed/out-of-order purchase, refund, renewal and revoke events converge without duplicate grants or accidental loss of unrelated access.
+- Existing manual members and Community-plan grants survive enabling product-linked pricing. Historical backfill does not restart an expired bonus.
+- Desktop, responsive web and native apps support the same discovery/access outcome; native purchase restrictions and return routes need explicit app verification.
 
 ## Feedback coverage and boundaries
 
-| Feedback | Decision for this request |
+| Feedback | Decision |
 |---|---|
-| Link a channel to an existing course/product/bundle/membership purchase; retain purchase attribution and automations | Included: select existing Product/Offers; pass offer and channel attribution into order/contact reporting and workflows. |
-| Offer more than one access path and support course bonuses that expire | Included: multiple offer mappings with per-offer duration and independent overlapping grants. |
-| Use forms, quizzes, surveys, or workflows to grant access | Reuse existing workflow grant/revoke actions and supported triggers; avoid separate form integrations. |
-| Add a mini sales page or customize the checkout | Keep channel discovery concise and link to the selected offer's existing checkout/sales page. A second sales-page builder inside Community would duplicate product/funnel capability and is outside this request. |
-| Give free visible-channel visitors a real **Request access** action | Adjacent UX gap, not delivered by product-linked paid access. Current behavior tells visitors to contact a manager/admin; no in-app request button is established. Track separately if prioritized. |
-| Verify identical behavior in the GoKollab mobile app | Required acceptance behavior, but current mobile implementation has not been confirmed. |
+| Link products, course offers, bundles and memberships; retain reporting/automations | Core addition. Use existing commerce identities, plus channel origin/benefit fields. |
+| Several offers; temporary bonuses; safe expiry/refund/revoke | Core addition. Per-offer periods and independent grants. |
+| Custom copy, images, long sales pages, forms/quizzes/surveys | Reuse existing offer/funnel/content tools. Link the existing sales surface; supported workflows explicitly grant access. No second page builder. |
+| Real Request access for a free visible channel | Related proposed UX improvement: request → pending → manager approval. Demonstrated by selecting Free in Proposed Pricing; not claimed as shipped. |
+| Points/tags/membership age and combined purchase conditions | Broader COMM-001 remains open. Reuse the grant/evaluator model; this demo does not deliver a general rules builder. |
+| Auto-create a channel per customer; whole-group upsell from a course | Distinct requirements present in linked sources. Existing-channel access does not automatically deliver them; see the implementation contract. |
+| Native mobile parity | Required acceptance target. Responsive prototype verified; native app purchase/return behavior not verified. |
 
-## Existing capability
+![Current locked channel](https://raw.githubusercontent.com/IvoDimitrovPro/highlevel-product-feedback/main/output/playwright/COMM-005-current-guest.png)
 
-**Already documented:** Private channels can be Visible or Hidden. Visible channels reveal channel information while keeping posts locked; the current Free option tells members to contact an admin/channel manager. Premium Channels have one-time and recurring channel-level checkout. Private-channel workflows can grant/revoke access, and Community pricing plans can include channels.
+![Proposed linked offers](https://raw.githubusercontent.com/IvoDimitrovPro/highlevel-product-feedback/main/output/playwright/COMM-005-proposed-guest.png)
 
-**Not established by current documentation:** Mapping an existing Product/Offer purchase directly to a private channel; preserving channel-specific purchase attribution; per-purchase timed grants with overlap-safe expiry/refund behavior; a direct in-app request button for visible Free channels; or matching mobile purchase behavior. Do not count the current standalone channel checkout or workflow workaround as delivery of product-linked access.
-
-## Interactive demos
-
-Both English prototypes use the GoKollab Community shell and **Срещи в Клуба / Events in the Club**, with sample-only names, prices, and posts. The bar at the top switches scenarios directly; the locked/unlocked layouts retain the same channel page and normal feed structure.
-
-- [Current behavior](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/mockups/COMM-005-current-behavior.html) recreates the guest information card, payment message, Join channel button, channel checkout, and observed About / Pricing / Members settings. Its Unlocked channel scenario shows a normal channel feed.
-- [Proposed product-linked access](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/mockups/COMM-005-proposed-product-link.html) adds Existing Product / Offer and access duration in Pricing. A simulated successful order returns to the same channel feed. The overlapping-access scenario explains continued access inline; there is no separate “Access sources” control.
-
-Open either HTML file in a browser. Scenario buttons at the top can also open a specific view directly with `?scenario=locked`, `?scenario=checkout`, `?scenario=unlocked`, `?scenario=overlap`, or `?scenario=admin`. Payment and order actions are simulated locally; nothing is charged or saved.
-
-![Current guest behavior](https://raw.githubusercontent.com/IvoDimitrovPro/highlevel-product-feedback/main/output/playwright/COMM-005-current-guest.png)
-
-![Proposed linked-offer flow](https://raw.githubusercontent.com/IvoDimitrovPro/highlevel-product-feedback/main/output/playwright/COMM-005-proposed-guest.png)
-
-![Proposed unlocked channel feed](https://raw.githubusercontent.com/IvoDimitrovPro/highlevel-product-feedback/main/output/playwright/COMM-005-proposed-unlocked.png)
+![Proposed unlocked feed](https://raw.githubusercontent.com/IvoDimitrovPro/highlevel-product-feedback/main/output/playwright/COMM-005-proposed-unlocked.png)
 
 ## Evidence
 
-- [Premium Channel setup and pricing — HighLevel docs](https://help.gohighlevel.com/support/solutions/articles/155000009196-how-to-create-and-manage-premium-channels-in-communities)
-- [Private-channel access via Workflows — HighLevel docs](https://help.gohighlevel.com/support/solutions/articles/155000001239-automate-community-group-access-with-workflows)
-- [Multiple Community pricing plans — HighLevel docs](https://help.gohighlevel.com/support/solutions/articles/155000009195-communities-create-and-manage-multiple-pricing-plans)
-- [Private-channel based course access — changelog](https://ideas.gohighlevel.com/changelog/communities-new-private-channel-based-course-access-learning-tab)
-- [Upsells within one Community — Ideas Board](https://ideas.gohighlevel.com/communities/p/upsells-within-one-community)
+- [Premium Channel setup — official docs](https://help.gohighlevel.com/support/solutions/articles/155000009196-how-to-create-and-manage-premium-channels-in-communities)
+- [Workflow guide — group vs private channel access](https://help.gohighlevel.com/support/solutions/articles/155000001239-automate-community-group-access-with-workflows)
+- [Multiple Community pricing plans — official docs](https://help.gohighlevel.com/support/solutions/articles/155000009195-communities-create-and-manage-multiple-pricing-plans)
+- [Upsells within one Community](https://ideas.gohighlevel.com/communities/p/upsells-within-one-community)
+- [COMM-001: broader conditional access](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/9)
+
+Sources and current/proposed distinctions were reviewed on 2026-10-30. The implementation contract contains the detailed coverage and verification boundary.
