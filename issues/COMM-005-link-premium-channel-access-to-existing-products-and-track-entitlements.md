@@ -1,4 +1,4 @@
-# COMM-005 — Unlock private Community channels from existing products
+# COMM-005 — Connect private-channel access to existing products, forms and funnels
 
 **Product:** Communities
 **Type:** Feature
@@ -31,15 +31,23 @@ Preserve original order/funnel/UTM/affiliate data and add community/channel orig
 
 - **[Open the demo guide](https://ivodimitrovpro.github.io/highlevel-product-feedback/)** — one entry point with a self-guided walkthrough and implementation requirements.
 - [Current behavior](https://ivodimitrovpro.github.io/highlevel-product-feedback/COMM-005-current-behavior.html?scenario=locked) — native channel checkout, About/Pricing/Members and normal unlocked feed.
-- [Proposed behavior](https://ivodimitrovpro.github.io/highlevel-product-feedback/COMM-005-proposed-product-link.html?scenario=locked) — working offer configuration → choice → existing sales-page/checkout handoff → simulated order → unlocked feed; bonus expiry, existing-buyer recognition, one order granting two channels, custom durations and order attribution.
+- [Proposed behavior](https://ivodimitrovpro.github.io/highlevel-product-feedback/COMM-005-proposed-product-link.html?scenario=locked) — working offer configuration → choice → existing sales-page/checkout handoff → simulated order → unlocked feed; bonus expiry, existing-buyer recognition, one order granting two channels, custom durations, embedded access assets, a standalone external-funnel path and order attribution.
 - [Implementation contract, edge cases and feedback coverage](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/mockups/developer-notes.md).
 
 The English prototypes recreate The Club’s Community shell with its branding and three sample posts. Top buttons switch scenarios; Reset restores sample settings. Current/Proposed settings are separate. No live payment, order, contact or channel is changed. These are interactive reference implementations, not production integrations or copied HighLevel source code.
+
+## Custom access paths
+
+Add **Custom access** beside existing product pricing. Let the admin select an existing Form, Quiz or Survey and embed it on the locked page or in its popup. Completing that asset in the channel grants access immediately through native channel context: no asset edit, copied form or channel-specific workflow. Reuse known member identity. Free completion needs no sale; paid assets unlock only after confirmed payment. The same asset used elsewhere must not unlock this channel accidentally.
+
+Also support **description + custom button/URL** as a standalone locked-page option, without a product card or Community checkout. For an owned native funnel, carry channel context through its checkout and return after verified payment, without another per-funnel workflow. Product matching and existing automation remain alternatives for other sales routes. A plain external link never proves completion or grants access by itself. The detailed contract specifies server validation, attribution and delayed/error handling.
 
 ## Acceptance examples
 
 - Link a course offer for 90 days and a monthly membership while active. Saving updates the locked channel’s offer choices; either can unlock the same channel.
 - Purchase through the existing offer checkout, with authentication/return handling. Failed/abandoned/pending payment never unlocks posts or protected APIs/media.
+- Complete an existing form/quiz/survey inside the locked channel and enter immediately, without a separate workflow. An unrelated submission of the same asset cannot grant access. Paid asset failure/pending states stay locked.
+- Use description + external funnel button with no Community payment UI. Verified native checkout opens the channel on return; a bare visit does not.
 - Recognize a signed-in existing buyer without another purchase. A member without a qualifying order stays locked; an expired bonus is not restarted.
 - One course order grants 90-day meetings and a lifetime Course Library. Expire the meetings: library access remains active.
 - Configure any positive whole-day duration, such as 45; saving updates discovery/checkout, while invalid values are rejected.
@@ -55,7 +63,8 @@ The English prototypes recreate The Club’s Community shell with its branding a
 |---|---|
 | Link products, course offers, bundles and memberships; retain reporting/automations | Core addition. Use existing commerce identities, plus channel origin/benefit fields. |
 | Several offers; temporary bonuses; safe expiry/refund/revoke | Core addition. Per-offer periods and independent grants. |
-| Custom copy, images, long sales pages, forms/quizzes/surveys | Reuse existing offer/funnel/content tools. Link the existing sales surface; supported workflows explicitly grant access. No second page builder. |
+| Existing Forms/Quizzes/Surveys | Select and embed inline or in a popup; channel-context completion unlocks automatically. No per-asset changes or per-channel workflow. Paid assets require confirmed payment. |
+| Custom sales content and external funnel | Standalone description + button/URL, without a product card or Community checkout. Native funnel checkout carries channel context; original sales attribution is preserved. Existing product/workflow routes remain alternatives. |
 | Real Request access for a free visible channel | Related proposed UX improvement: request → pending → manager approval. Demonstrated by selecting Free in Proposed Pricing; not claimed as shipped. |
 | Points/tags/membership age and combined purchase conditions | Broader COMM-001 remains open. Reuse the grant/evaluator model; this demo does not deliver a general rules builder. |
 | Auto-create a channel per customer; whole-group upsell from a course | Distinct requirements present in linked sources. Existing-channel access does not automatically deliver them; see the implementation contract. |
@@ -69,6 +78,7 @@ The English prototypes recreate The Club’s Community shell with its branding a
 
 ## Evidence
 
+- [Existing Forms/Surveys/Quizzes embedding — official docs](https://help.gohighlevel.com/support/solutions/articles/155000009336-integrate-tab-in-highlevel-s-form-survey-quizzes)
 - [Premium Channel setup — official docs](https://help.gohighlevel.com/support/solutions/articles/155000009196-how-to-create-and-manage-premium-channels-in-communities)
 - [Workflow guide — group vs private channel access](https://help.gohighlevel.com/support/solutions/articles/155000001239-automate-community-group-access-with-workflows)
 - [Multiple Community pricing plans — official docs](https://help.gohighlevel.com/support/solutions/articles/155000009195-communities-create-and-manage-multiple-pricing-plans)

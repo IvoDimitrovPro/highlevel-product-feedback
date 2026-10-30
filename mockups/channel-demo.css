@@ -6,3 +6,9 @@
 body[data-variant="proposed"]{--bar:90px}body[data-variant="proposed"] .demo-bar{flex-wrap:wrap;align-content:center;gap:6px 12px}body[data-variant="proposed"] .scenarios{order:3;flex-basis:100%}.bundle-library{width:100%;border:0;background:white;text-align:left}.bundle-library.selected{background:var(--blue);color:white}.bundle-summary{margin-bottom:16px}.bundle-summary .actions{margin-top:14px}.bundle-summary .summary-table td{vertical-align:middle}
 
 .footer{flex-wrap:wrap}
+
+.embedded-asset{border-top:1px solid var(--line);margin-top:16px;padding-top:4px}.embedded-asset .post-title{font-size:18px}.embedded-asset .footer{justify-content:flex-start}.guest>.primary{margin-top:12px}.modal .embedded-asset{margin-top:0;border-top:0}
+
+.guest .hint,.modal .hint{overflow-wrap:anywhere}
+
+.external-handoff{background:#f5f6f8;align-items:flex-start;padding-top:35px}.external-handoff .modal{width:min(900px,100%);border:1px solid var(--line);box-shadow:none}.external-handoff .modal-header h2{font-size:22px}.external-handoff .description{margin-top:24px}
