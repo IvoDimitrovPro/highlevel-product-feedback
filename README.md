@@ -2,6 +2,12 @@
 
 This repository is the evidence archive. **GitHub Issues and the linked Project are the daily work surface.** One feedback item has one Issue permalink; duplicate sources are listed on that issue.
 
+## Strategic tracking and attribution proposal — 2026-10-30
+
+- [Executive request to HighLevel](references/tracking-executive-request-to-highlevel-2026-10-30.md) — single link to forward to the product team.
+- [Full engineering contract and 16 acceptance tests](references/tracking-open-attribution-platform-2026-10-30.md) — cross-platform event access, consent-aware journeys, verified revenue, attribution, CAPI quality and actionable analytics.
+- The six distinct requests are [TRACKING-002](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/75) through [TRACKING-007](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/80). Existing [TRACKING-001](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/64) remains the owner of consistent pixel/GTM setup across builders.
+
 ## Start here
 
 - [Project: Active](https://github.com/users/IvoDimitrovPro/projects/1/views/1) — default view for New, Acknowledged, and Planned items.
