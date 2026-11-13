@@ -25,3 +25,7 @@ HighLevel agrees recording, transcription, AI summaries, and post-meeting proces
 **Source:** [Sanitized test notes](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-webinar-test-2026-11-13.md)
 
 In the 2026-11-13 live webinar test, recording was a manual host action; the user needs optional per-room/session auto-start of recording **and** transcription, with participant notice, so a live presenter cannot forget either. [HighLevel states](https://help.gohighlevel.com/support/solutions/articles/155000009149-meeting-room-in-highlevel-overview) recording does not automatically create a transcript. This is covered by the existing unified recording pipeline request, not a new duplicate.
+
+## November 2026 roadmap cross-reference
+
+A global settings page with automatic recording **and** automatic transcription is planned for November (MR-225). This partially advances this issue; the complete AI summary, CRM save, processing chain, per-session configuration and replay automation remain uncommitted. Keep this combined item Acknowledged. [Source](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).

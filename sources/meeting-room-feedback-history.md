@@ -1,3 +1,7 @@
+## Community roadmap and transcription confirmation — November 13, 2026
+
+[Latest supplied community discussion](meeting-room-roadmap-community-discussion-2026-11-13.md) confirms HighLevel's use of Deepgram Nova-3, Bulgarian transcription working after correct language selection, and developer roadmap statements about reliability, recording sharing, host stop-sharing, multiple rooms, and global meeting defaults. Distinct outstanding language UX and microphone onboarding issues are MR-220 and MR-222. Individual delivery dates are not proven.
+
 # Source history — Meeting Room feedback
 
 ## Provenance

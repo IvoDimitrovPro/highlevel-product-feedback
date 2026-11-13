@@ -2,6 +2,14 @@
 
 This repository is the evidence archive. **GitHub Issues and the linked Project are the daily work surface.** One feedback item has one Issue permalink; duplicate sources are listed on that issue.
 
+## Meeting Room roadmap update — November 13, 2026
+
+- [Verified source and release-scope notes](sources/meeting-room-roadmap-community-discussion-2026-11-13.md) — Praveen's community replies and Ivo's Bulgarian transcription confirmation.
+- [MR-220: Transcription language settings are hidden](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/90) — Bulgarian transcription works, but language selection needs a better Start Transcribing flow and Auto default.
+- [MR-221: Meeting audio/video reliability](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/91) — engineering's active focus, no committed delivery date.
+- [MR-224: Multiple personal rooms](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/94) and [MR-225: Sub-account-wide default settings](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/95) — planned for November 2026.
+- [MR-142: Recording Sharing](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/27) and [MR-223: Stop screen sharing](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/93) — targeted/planned for the week of Nov 16–22, not verified as shipped. Do not infer Client Portal sharing or host-control details beyond confirmed scope.
+
 ## Meeting Room webinar readiness — 2026-11-13
 
 - [Praveen's 2026-11-13 reply](sources/highlevel-meeting-room-webinar-response-2026-11-13.md) - planned webinar UI, acknowledged observations, and explained pwd behavior.

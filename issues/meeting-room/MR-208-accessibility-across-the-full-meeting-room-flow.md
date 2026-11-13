@@ -19,3 +19,7 @@ Keyboard navigation, screen-reader labels, correct focus order, captions and suf
 
 ## HighLevel response
 HighLevel agrees keyboard navigation, screen-reader support, focus management, captions, and contrast should be considered across Meeting Room.
+
+## Microphone onboarding observation — 2026-11-13
+
+Dominik describes a first-time Windows/Chrome attendee missing the browser microphone permission request. Praveen is investigating a possible solution (MR-222). Keep this general accessibility request Acknowledged; the specific mic permission guidance is tracked separately. [Source](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).

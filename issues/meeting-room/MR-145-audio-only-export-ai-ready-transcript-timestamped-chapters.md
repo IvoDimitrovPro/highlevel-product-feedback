@@ -1,4 +1,4 @@
-# MR-145 — Transcripts: Bulgarian, exports and chapters
+# MR-145 — Transcripts: Export audio, captions and chapters
 
 **Product:** Meeting Room
 **Type:** Feature
@@ -24,8 +24,11 @@ For each recording, provide:
 - Per-room/session controls to enable or disable transcription and chapter processing, including for webinars.
 
 ## HighLevel response
-Praveen's response on MR-144 says reliable final audio mixing is the priority and separate logical tracks/exports will be evaluated separately. It does not specifically answer or commit to audio-only export, transcript quality/speaker labels/timestamps, text/caption formats, Bulgarian support, chapters, or per-session processing controls. Keep this item New until HighLevel responds to these requirements.
+**2026-11-13 update:** Praveen Gupta (Team kollab) confirms Meeting Rooms uses **Deepgram Nova-3**, with individual language selection and Auto detection. Ivo **verified Bulgarian transcription works** using the appropriate setting. Bulgarian recognition is no longer an outstanding capability gap; see MR-220 for discoverability and Auto-default UX.
 
+**Still outstanding under this issue (New):** audio-only export, AI-ready transcript formats, chapters, and end-to-end automation beyond the already available basic transcript. No confirmed commitment to these remaining features.
+
+**Historical response:** Praveen's earlier reply about separate-track exporting prioritized reliable final audio mixing and did not cover the transcript/export requirements above.
 ## Related feedback
 MR-144 preserves the historical separate-track suggestion, which Ivo has decided not to pursue.
 
@@ -40,3 +43,9 @@ In the 2026-11-13 Bulgarian-language test, transcription output was nonsensical 
 Deepgram [Nova-3 model documentation](https://developers.deepgram.com/docs/models-languages-overview) lists Bulgarian (bg) for both monolingual and multilingual transcription. [Streaming language hinting](https://developers.deepgram.com/docs/nova-3-language-prompting) also supports bg. The [November 12 changelog](https://developers.deepgram.com/changelog/2026/11/12) improves the Bulgarian batch model; that particular improvement is batch, not a new streaming-specific release.
 
 This confirms provider-level capabilities, NOT that HighLevel Meeting Rooms exposes, configures, or has deployed those settings. Request an explicit bg setting or Nova-3 multilingual with a bg language hint and verify Bulgarian output in a live Meeting Room.
+
+## Follow-up — Bulgarian transcription confirmed (2026-11-13)
+
+**Correction to earlier report:** Praveen confirmed HighLevel uses Deepgram Nova-3 and provides specific-language selection and Auto detection. Ivo **personally confirmed Bulgarian works** after finding the correct settings. The earlier nonsensical English transcript is **not an unresolved Bulgarian-model support failure**; the remaining issue is that the language selector is hidden by the Start Transcribing UI, tracked separately in MR-220.
+
+The separate audio-only export, editable/TXT/Markdown/SRT/VTT transcript, chapters and automatic end-to-end processing requests in this issue are **still open**. Status remains New for those independent requirements. See [discussion](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).

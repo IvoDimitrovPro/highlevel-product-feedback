@@ -31,6 +31,9 @@ CROSS_AREA_IDS = {
         "MR-145", "MR-160", "MR-161", "MR-162", "MR-163", "MR-164", "MR-165",
         "MR-203", "MR-209", "MR-211", "MR-212", "MR-213", "MR-214",
         "MR-215", "MR-216", "MR-217", "MR-218", "MR-219",
+        "MR-220", "MR-221", "MR-222", "MR-223", "MR-224", "MR-225",
+        "MR-220", "MR-221", "MR-222", "MR-223", "MR-224", "MR-225",
+        "MR-220", "MR-221", "MR-222", "MR-223", "MR-224", "MR-225",
     },
     "Communities": {"MR-101", "MR-104", "MR-142", "WEB-001"},
     "Courses": {"AI-004", "COMM-003", "MR-101", "MR-104", "MR-141"},
@@ -52,7 +55,7 @@ CROSS_AREA_IDS = {
     "Calendars & Events": {"MR-101", "MR-103", "MR-104", "MR-164", "MR-165", "WEB-001"},
     "Media & Recordings": {
         "MR-001", "MR-007", "MR-140", "MR-141", "MR-142", "MR-143",
-        "MR-144", "MR-145", "MR-146", "MR-163",
+        "MR-144", "MR-145", "MR-146", "MR-163", "MR-220", "MR-225", "MR-220", "MR-225", "MR-220", "MR-225",
     },
     "Invoices & Documents": {"REPORT-002"},
     "Tasks & Helpdesk": {"MR-007"},

@@ -18,3 +18,7 @@ Let users save named meeting presets by use case and apply them when creating ne
 
 ## HighLevel response
 HighLevel plans different presets based on meeting type/use case.
+
+## November 2026 roadmap cross-reference
+
+Global sub-account meeting defaults (MR-225) and multiple rooms (MR-224) are scheduled as broad November plans. Named use-case presets, inheritance and per-session overrides described in this issue are distinct and retain their earlier planned status; no new delivery date confirmed. [Source](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).

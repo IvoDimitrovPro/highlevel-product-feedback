@@ -21,8 +21,8 @@ Source: [sanitized live test](https://github.com/IvoDimitrovPro/highlevel-produc
 
 ## P1/P2 — Recording, transcripts and reliability
 
-10. [MR-145 — accurate Bulgarian recognition and useful transcript](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/29) — New, High. Actual Bulgarian-to-nonsense-English output in the test; separate from translated captions.
-11. [MR-007 — optional automatic recording and transcription](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/21) — Acknowledged, High.
+10. [MR-220 — Language settings inside Start Transcribing](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/90) — New, High. Bulgarian now **works**, but the language control is hidden/obscured and Auto should be the default. [MR-145 — remaining export/captions/chapter requests](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/29) stays New for the other gaps.
+11. [MR-007 — recording/transcription automation](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/21) — Acknowledged, High; a *global default* for auto-recording and auto-transcription is planned in [MR-225](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/95), but the entire AI processing chain is not yet confirmed.
 12. [MR-216 — remember name and devices after rejoining](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/86) — Acknowledged, Medium.
 13. [MR-217 — exit fullscreen when a meeting ends](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/87) — Acknowledged, Medium.
 14. [MR-218 — passcode/guest access state clarity](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/88) — Closed — Works as designed, Medium. Full link with pwd explains no manual prompt.
@@ -38,3 +38,13 @@ Source: [sanitized live test](https://github.com/IvoDimitrovPro/highlevel-produc
 ## 2026-11-13 developer response
 
 [Praveen Gupta's response](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/highlevel-meeting-room-webinar-response-2026-11-13.md) acknowledges the list and confirms an overall webinar UI/UX initiative is planned, without exact feature delivery commitments. The full URL containing pwd explains the passcode behavior; MR-218 is closed.
+
+## November 2026 release tracking — not yet shipped
+
+- [MR-221 — Audio/video stability](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/91): primary active engineering focus, no ETA.
+- [MR-142 — Recording Sharing](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/27): vendor target week November 16–22; scope of secure client sharing remains unconfirmed.
+- [MR-223 — Host stop-sharing control](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/93): vendor plans to plan this for next week; precise host action needs confirmation.
+- [MR-224 — Multiple meeting rooms](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/94) and [MR-225 — Subaccount default settings](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/95): planned during November, no exact release dates.
+- [MR-222 — Microphone permissions onboarding](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/92): acknowledged; possible solution under discussion, no commitment.
+
+[Community discussion and distinctions between confirmed, planned, and requested items](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).

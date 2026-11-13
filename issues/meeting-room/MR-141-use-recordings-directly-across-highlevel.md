@@ -19,3 +19,7 @@ Attach to Contact/Appointment/Opportunity; publish to Community; add to Course/E
 
 ## HighLevel response
 HighLevel intends recordings to be reusable across its products, including sharing or attaching them to relevant entities.
+
+## November 2026 roadmap cross-reference
+
+Praveen announced generic Recording Sharing planned for the week of November 16–22, 2026. This may help this reusable-asset workflow, but **does not commit** to embedding/attaching a recording across CRM, Courses, Events, Webinars and Media Storage. Keep Acknowledged. [Source](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).
