@@ -1,4 +1,4 @@
-# EMAIL-004 — Do not silently generate empty email subject or body fields
+# EMAIL-004 — AI content: Prevent empty email fields
 
 **Product:** Ask AI / Email
 **Type:** Reliability

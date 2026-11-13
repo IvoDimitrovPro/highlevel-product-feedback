@@ -1,4 +1,4 @@
-# MR-218 — Clarify when passcodes are required for guest entry
+# MR-218 — Passcodes: Clarify guest link behavior
 
 **Product:** Meeting Room
 **Type:** UX

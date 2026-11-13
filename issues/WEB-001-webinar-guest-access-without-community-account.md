@@ -1,4 +1,4 @@
-# WEB-001 — Let webinar guests join without creating a Community account
+# WEB-001 — Guest access: Join without community signup
 
 **Product:** Webinars / Community Events
 **Type:** UX

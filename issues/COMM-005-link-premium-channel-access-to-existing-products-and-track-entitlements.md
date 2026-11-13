@@ -1,4 +1,4 @@
-# COMM-005 — Connect private-channel access to existing products, forms and funnels
+# COMM-005 — Premium channels: Link products and access
 
 **Product:** Communities
 **Type:** Feature

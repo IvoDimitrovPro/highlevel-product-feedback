@@ -1,4 +1,4 @@
-# MR-004 — Configure participant join modes per meeting
+# MR-004 — Access: Configurable join modes
 
 **Product:** Meeting Room
 **Type:** Access

@@ -1,4 +1,4 @@
-# TASK-001 — Make tasks visible from mobile and Helpdesk
+# TASK-001 — Tasks: Show in mobile and Helpdesk
 
 **Product:** Tasks / Helpdesk
 **Type:** UX

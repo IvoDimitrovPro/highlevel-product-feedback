@@ -1,4 +1,4 @@
-# MR-002 — Show active sessions from every entry point
+# MR-002 — Sessions: Show live state everywhere
 
 **Product:** Meeting Room
 **Type:** UX

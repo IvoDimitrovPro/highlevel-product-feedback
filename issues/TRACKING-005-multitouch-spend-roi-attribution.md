@@ -1,4 +1,4 @@
-# TRACKING-005 — Deliver transparent multi-touch attribution with ad costs and true profitability
+# TRACKING-005 — Attribution: Multi-touch ROI reporting
 
 **Product:** Reporting
 **Type:** Feature

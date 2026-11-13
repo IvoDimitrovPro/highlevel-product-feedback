@@ -12,6 +12,15 @@ This repository is a public evidence-backed feedback tracker, not a brainstormin
 - Preserve verbatim primary-source excerpts separately from editorial summaries when available.
 - Keep issue bodies short: Observed → Why it matters → Expected → Evidence/response when useful.
 
+## Naming and product categorization
+
+- Short issue titles are mandatory: [STABLE-ID] Topic: concrete outcome in GitHub, and # STABLE-ID — Topic: concrete outcome in issue Markdown.
+- Topic describes the feature area (Presentation, Registration, Attribution, Email); the outcome is specific. Avoid long prose, marketing, redundant HighLevel prefix, or vague Make/Improve/Support titles.
+- One stable issue = one canonical record, even when it belongs to multiple product boards.
+- scripts/feedback_taxonomy.py defines canonical Area: labels and product views. Update it when introducing a product area or cross-product request; preserve existing issue IDs and permalinks.
+- The historical Product field may contain mixed areas; board membership uses canonical Area labels. Do not create duplicate issues to appear in multiple tabs.
+- A GitHub Project drag updates Project Status but scripts/sync_github.py pushes statuses from source issue files. Reconcile a board change into the source Issue and CSV index before running apply sync.
+
 ## Public-repo safety
 
 Never publish:

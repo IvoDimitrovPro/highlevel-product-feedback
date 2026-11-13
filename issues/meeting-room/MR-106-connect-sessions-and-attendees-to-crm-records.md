@@ -1,4 +1,4 @@
-# MR-106 — Connect sessions and attendees to CRM records
+# MR-106 — CRM: Link attendees and sessions
 
 **Product:** CRM
 **Type:** Feature

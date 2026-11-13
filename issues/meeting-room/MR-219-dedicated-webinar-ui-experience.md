@@ -1,4 +1,4 @@
-# MR-219 — Dedicated webinar UI and experience
+# MR-219 — Webinars: Dedicated attendee experience
 
 **Product:** Meeting Room
 **Type:** Feature

@@ -1,4 +1,4 @@
-# COMM-004 — Keep member profile identity and navigation consistent
+# COMM-004 — Profiles: Consistent identity and navigation
 
 **Product:** Communities / Client Portal
 **Type:** UX

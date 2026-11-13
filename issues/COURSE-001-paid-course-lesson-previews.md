@@ -1,4 +1,4 @@
-# COURSE-001 — Preview lessons inside a paid course
+# COURSE-001 — Lessons: Preview paid course content
 
 **Product:** Courses
 **Type:** Feature

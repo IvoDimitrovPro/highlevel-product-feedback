@@ -1,4 +1,4 @@
-# MR-206 — Host-side live quality/network diagnostics
+# MR-206 — Diagnostics: Live quality metrics
 
 **Product:** Meeting Room
 **Type:** UX

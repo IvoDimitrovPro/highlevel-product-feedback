@@ -4,6 +4,7 @@ import pathlib
 import re
 import sys
 from collections import Counter
+from feedback_taxonomy import areas_for
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 ISSUES = ROOT / "issues"
@@ -31,6 +32,12 @@ for p in issue_files:
         errors.append(f"Missing issue ID heading: {p.relative_to(ROOT)}")
         continue
     ids.append((m.group(1), p))
+    # Titles are short and consistently "Topic: concrete outcome" on the Kanban cards.
+    heading = re.search(r"^#\s+[A-Z]+-\d+\s+[—-]\s+(.+)$", text, re.M)
+    if not heading or ": " not in heading.group(1) or len(heading.group(1)) > 65:
+        errors.append(f"Noncanonical issue title: {p.relative_to(ROOT)}")
+    if not areas_for(m.group(1)):
+        errors.append(f"No product-area mapping: {m.group(1)}")
     missing = [field for field in REQUIRED if field not in text]
     if missing:
         errors.append(f"Missing fields {missing}: {p.relative_to(ROOT)}")
@@ -86,6 +93,16 @@ if index.exists():
     if missing_in_csv:
         warnings.append(f"Markdown IDs absent from CSV index: {missing_in_csv}")
 
+active_path = ROOT / "active-items.csv"
+if active_path.exists() and index.exists():
+    with active_path.open(encoding="utf-8-sig", newline="") as f:
+        active_rows = list(csv.DictReader(f))
+    expected_active = {r["ID"] for r in rows if r["Status"] in {"New", "Acknowledged", "Planned"}}
+    actual_active = [r["ID"] for r in active_rows]
+    missing_active = sorted(expected_active - set(actual_active))
+    extra_active = sorted(set(actual_active) - expected_active)
+    if missing_active or extra_active or len(actual_active) != len(set(actual_active)):
+        errors.append(f"Active index mismatch: missing={missing_active}, extra={extra_active}, duplicates={len(actual_active) - len(set(actual_active))}")
 print(f"Issue files: {len(issue_files)}")
 print(f"Errors: {len(errors)}")
 for item in errors:

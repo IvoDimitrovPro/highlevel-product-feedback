@@ -16,14 +16,33 @@ This repository is the evidence archive. **GitHub Issues and the linked Project 
 - [Full engineering contract and 16 acceptance tests](references/tracking-open-attribution-platform-2026-10-30.md) — cross-platform event access, consent-aware journeys, verified revenue, attribution, CAPI quality and actionable analytics.
 - The six distinct requests are [TRACKING-002](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/75) through [TRACKING-007](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/80). Existing [TRACKING-001](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/64) remains the owner of consistent pixel/GTM setup across builders.
 
-## Start here — visual GitHub Projects boards
+## Product Kanban boards
 
-- **[Meeting Rooms — Kanban](https://github.com/users/IvoDimitrovPro/projects/1/views/9)** — all Meeting Room requests, including cross-product integrations, grouped by Status.
-- **[Active — Kanban](https://github.com/users/IvoDimitrovPro/projects/1/views/1)** — default board for New / Acknowledged / Planned items across all products.
-- **[All Products — Kanban](https://github.com/users/IvoDimitrovPro/projects/1/views/10)** — complete board, including shipped and closed items.
-- **[All / Archive — Table](https://github.com/users/IvoDimitrovPro/projects/1/views/2)** — full searchable table with all statuses.
+Each product area has its own saved Status-based board, with concise issue titles and Impact/Type visible.
+The same GitHub Issue may appear in multiple related products without duplicating it.
+The stable ID, URL, evidence, and HighLevel reply live on that one issue.
 
-Click any card for observations, expected behavior and the HighLevel response. Dragging a card changes its **Project status** immediately; retain a source-backed Issue/CSV status update before running the repository-to-GitHub sync, which otherwise treats local issue files as authoritative.
+- [Active — all products](https://github.com/users/IvoDimitrovPro/projects/1/views/1) — default view for unresolved requests.
+- [All Products — all statuses](https://github.com/users/IvoDimitrovPro/projects/1/views/10)
+- [All / Archive — searchable table](https://github.com/users/IvoDimitrovPro/projects/1/views/2)
+
+- [Meeting Rooms](https://github.com/users/IvoDimitrovPro/projects/1/views/9)
+- [Webinars](https://github.com/users/IvoDimitrovPro/projects/1/views/11)
+- [Communities](https://github.com/users/IvoDimitrovPro/projects/1/views/12)
+- [Courses](https://github.com/users/IvoDimitrovPro/projects/1/views/13)
+- [AI & AI Studio](https://github.com/users/IvoDimitrovPro/projects/1/views/14)
+- [Email](https://github.com/users/IvoDimitrovPro/projects/1/views/15)
+- [Funnels & Forms](https://github.com/users/IvoDimitrovPro/projects/1/views/16)
+- [Checkout & Orders](https://github.com/users/IvoDimitrovPro/projects/1/views/17)
+- [Tracking](https://github.com/users/IvoDimitrovPro/projects/1/views/18)
+- [Reporting](https://github.com/users/IvoDimitrovPro/projects/1/views/19)
+- [Platform & Builders](https://github.com/users/IvoDimitrovPro/projects/1/views/20)
+- [CRM & Workflows](https://github.com/users/IvoDimitrovPro/projects/1/views/21)
+- [SaaS & Affiliates](https://github.com/users/IvoDimitrovPro/projects/1/views/22)
+- [Calendars & Events](https://github.com/users/IvoDimitrovPro/projects/1/views/23)
+- [Media & Recordings](https://github.com/users/IvoDimitrovPro/projects/1/views/24)
+- [Invoices & Documents](https://github.com/users/IvoDimitrovPro/projects/1/views/25)
+- [Tasks & Helpdesk](https://github.com/users/IvoDimitrovPro/projects/1/views/26)
 
 ## Other focused views
 

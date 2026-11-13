@@ -1,4 +1,4 @@
-# MR-160 — Webinar stage/backstage roles
+# MR-160 — Webinars: Presenter and audience roles
 
 **Product:** Meeting Room
 **Type:** Feature

@@ -1,4 +1,4 @@
-# MR-003 — Separate reusable rooms from session occurrences
+# MR-003 — Rooms: Separate settings from sessions
 
 **Product:** Meeting Room
 **Type:** Feature

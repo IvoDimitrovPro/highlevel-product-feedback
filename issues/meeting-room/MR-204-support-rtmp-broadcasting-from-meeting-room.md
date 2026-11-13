@@ -1,4 +1,4 @@
-# MR-204 — Support RTMP broadcasting from Meeting Room
+# MR-204 — Broadcast: RTMP streaming
 
 **Product:** Meeting Room
 **Type:** Feature

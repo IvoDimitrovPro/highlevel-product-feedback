@@ -1,4 +1,4 @@
-# AI-006 — Preserve language preference and make page context controllable
+# AI-006 — Language: Remember preference and page context
 
 **Product:** Ask AI
 **Type:** UX

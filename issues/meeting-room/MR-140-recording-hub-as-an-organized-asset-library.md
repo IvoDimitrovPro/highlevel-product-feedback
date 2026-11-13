@@ -1,4 +1,4 @@
-# MR-140 — Recording Hub as an organized asset library
+# MR-140 — Recording Hub: Organize recordings
 
 **Product:** Meeting Room
 **Type:** Feature

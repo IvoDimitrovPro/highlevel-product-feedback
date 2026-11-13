@@ -1,4 +1,4 @@
-# MR-212 — Auto-admit attendees joining an ongoing webinar
+# MR-212 — Admissions: Auto-admit late attendees
 
 **Product:** Meeting Room
 **Type:** Access

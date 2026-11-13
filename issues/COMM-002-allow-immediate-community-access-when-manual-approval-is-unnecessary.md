@@ -1,4 +1,4 @@
-# COMM-002 — Allow immediate Community access when manual approval is unnecessary
+# COMM-002 — Access: Skip unnecessary manual approval
 
 **Product:** Communities
 **Type:** UX

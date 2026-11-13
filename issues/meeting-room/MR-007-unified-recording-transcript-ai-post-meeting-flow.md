@@ -1,4 +1,4 @@
-# MR-007 — Unified recording → transcript → AI post-meeting flow
+# MR-007 — Recording: Automate transcripts and AI notes
 
 **Product:** Meeting Room
 **Type:** Feature

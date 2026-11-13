@@ -1,4 +1,4 @@
-# MR-105 — Team-owned rooms and broader preassigned roles
+# MR-105 — Teams: Shared ownership and backup hosts
 
 **Product:** Meeting Room
 **Type:** Feature

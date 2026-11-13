@@ -1,4 +1,4 @@
-# MR-164 — Scheduled automated / simulive webinars
+# MR-164 — Webinars: Automated and simulive sessions
 
 **Product:** Meeting Room
 **Type:** Feature

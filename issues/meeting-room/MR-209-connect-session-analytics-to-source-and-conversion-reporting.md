@@ -1,4 +1,4 @@
-# MR-209 — Connect session analytics to source and conversion reporting
+# MR-209 — Analytics: Connect attendance to revenue
 
 **Product:** Meeting Room
 **Type:** Feature

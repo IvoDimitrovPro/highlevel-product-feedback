@@ -1,4 +1,4 @@
-# CHECKOUT-001 — Make one-step and two-step checkout easier to configure
+# CHECKOUT-001 — Checkout: Simplify one- and two-step setup
 
 **Product:** Funnels / Checkout
 **Type:** UX

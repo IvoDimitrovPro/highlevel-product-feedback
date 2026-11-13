@@ -1,4 +1,4 @@
-# EMAIL-001 — Provide a native inbox and better deliverability for HighLevel domains
+# EMAIL-001 — Domains: Native inbox and deliverability
 
 **Product:** Email / Domains
 **Type:** Feature

@@ -1,4 +1,4 @@
-# BUILDER-001 — Make builder controls consistent and reliable
+# BUILDER-001 — Builders: Consistent editing controls
 
 **Product:** Builders
 **Type:** UX

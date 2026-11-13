@@ -1,4 +1,4 @@
-# MR-101 — Create and select meetings inline from other product areas
+# MR-101 — Integrations: Select or create rooms inline
 
 **Product:** Platform
 **Type:** Feature

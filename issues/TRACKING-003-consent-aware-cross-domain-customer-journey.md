@@ -1,4 +1,4 @@
-# TRACKING-003 — Provide consent-aware anonymous-to-customer journeys across domains and devices
+# TRACKING-003 — Journeys: Connect users across devices
 
 **Product:** Platform
 **Type:** Feature

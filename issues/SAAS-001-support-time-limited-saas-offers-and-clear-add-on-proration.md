@@ -1,4 +1,4 @@
-# SAAS-001 — Support time-limited SaaS offers and clear add-on proration
+# SAAS-001 — Billing: Limited-time offers and proration
 
 **Product:** SaaS Mode / Billing
 **Type:** Pricing UX

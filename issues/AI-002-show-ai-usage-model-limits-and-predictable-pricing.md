@@ -1,4 +1,4 @@
-# AI-002 — Show AI usage, model, limits, and predictable pricing
+# AI-002 — Usage: Show model limits and costs
 
 **Product:** Ask AI / AI Studio
 **Type:** Transparency

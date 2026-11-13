@@ -1,4 +1,4 @@
-# ORDERS-001 — Expose order identifiers and metadata in exports and Workflows
+# ORDERS-001 — Orders: Expose IDs in exports and workflows
 
 **Product:** Funnels / Stores / Workflows
 **Type:** Data

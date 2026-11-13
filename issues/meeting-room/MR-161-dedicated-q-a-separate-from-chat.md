@@ -1,4 +1,4 @@
-# MR-161 — Dedicated Q&A separate from chat
+# MR-161 — Webinars: Moderated Q&A
 
 **Product:** Meeting Room
 **Type:** Feature

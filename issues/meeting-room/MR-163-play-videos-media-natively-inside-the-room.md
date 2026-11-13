@@ -1,4 +1,4 @@
-# MR-163 — Play videos/media natively inside the room
+# MR-163 — Webinars: Play media directly
 
 **Product:** Meeting Room
 **Type:** Feature

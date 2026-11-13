@@ -1,4 +1,4 @@
-# REPORT-001 — Make data tables and dashboards configurable and exportable
+# REPORT-001 — Dashboards: Customize and export tables
 
 **Product:** Reporting
 **Type:** Feature

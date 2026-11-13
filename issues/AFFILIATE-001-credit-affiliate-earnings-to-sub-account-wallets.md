@@ -1,4 +1,4 @@
-# AFFILIATE-001 — Credit affiliate earnings to sub-account wallets
+# AFFILIATE-001 — Wallets: Credit affiliate earnings
 
 **Product:** Affiliate / SaaS Mode
 **Type:** Billing

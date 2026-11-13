@@ -7,11 +7,13 @@ import re
 import subprocess
 import sys
 
+from feedback_taxonomy import areas_for, label_for
+
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 REPO = "IvoDimitrovPro/highlevel-product-feedback"
 PROJECT_NUMBER = "1"
 OWNER = "IvoDimitrovPro"
-CATEGORY_PREFIXES = ("Status: ", "Impact: ", "Type: ", "Product: ")
+CATEGORY_PREFIXES = ("Status: ", "Impact: ", "Type: ", "Product: ", "Area: ")
 
 def gh(*args: str, check: bool = True) -> str:
     p = subprocess.run(["gh", *args], text=True, encoding="utf-8",
@@ -76,8 +78,7 @@ def ensure_issue(row: dict[str, str], meta: dict[str, str], apply: bool) -> int:
     source_label = desired_source_label(meta["Source"])
     if source_label:
         desired_core.append(source_label)
-    if meta["ID"].startswith("MR-"):
-        desired_core.append("Area: Meeting Rooms")
+    desired_core.extend(label_for(area) for area in areas_for(meta["ID"]))
     remove = [
         x for x in current_labels
         if x.startswith(CATEGORY_PREFIXES) and x not in desired_core

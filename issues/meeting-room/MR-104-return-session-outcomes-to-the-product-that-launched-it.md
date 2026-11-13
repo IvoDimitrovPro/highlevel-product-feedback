@@ -1,4 +1,4 @@
-# MR-104 — Return session outcomes to the product that launched it
+# MR-104 — Integrations: Return session outcomes
 
 **Product:** Courses / Communities / Events
 **Type:** Feature

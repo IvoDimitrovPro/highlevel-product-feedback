@@ -1,4 +1,4 @@
-# AI-004 — Preserve course content and structure in Ask AI imports
+# AI-004 — Course imports: Preserve content and structure
 
 **Product:** Ask AI / Courses
 **Type:** Reliability

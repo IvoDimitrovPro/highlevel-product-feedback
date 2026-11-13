@@ -1,4 +1,4 @@
-# MR-208 — Accessibility across the full Meeting Room flow
+# MR-208 — Accessibility: Join-to-exit experience
 
 **Product:** Meeting Room
 **Type:** UX

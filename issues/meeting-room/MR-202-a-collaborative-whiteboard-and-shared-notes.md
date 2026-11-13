@@ -1,4 +1,4 @@
-# MR-202 — Add a collaborative whiteboard and shared notes
+# MR-202 — Workshops: Shared whiteboard and notes
 
 **Product:** Meeting Room
 **Type:** Feature

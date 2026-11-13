@@ -1,4 +1,4 @@
-# COMM-001 — Set Community access from purchases, points, and membership rules
+# COMM-001 — Access: Grant membership from purchases
 
 **Product:** Communities
 **Type:** Feature

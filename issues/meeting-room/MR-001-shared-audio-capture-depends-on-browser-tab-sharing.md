@@ -1,4 +1,4 @@
-# MR-001 — Shared audio capture depends on browser-tab sharing
+# MR-001 — Audio sharing: Browser-tab limitation
 
 **Product:** Meeting Room
 **Type:** Bug

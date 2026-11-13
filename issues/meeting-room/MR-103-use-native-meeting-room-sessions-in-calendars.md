@@ -1,4 +1,4 @@
-# MR-103 — Use native Meeting Room sessions in Calendars
+# MR-103 — Calendars: Session per appointment
 
 **Product:** Calendars
 **Type:** Feature

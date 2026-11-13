@@ -1,4 +1,4 @@
-# MR-121 — Meeting labels use the centralized translation system
+# MR-121 — Localization: Reuse shared translations
 
 **Product:** Platform
 **Type:** Localization

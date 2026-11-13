@@ -1,4 +1,4 @@
-# MR-201 — Breakout rooms
+# MR-201 — Workshops: Breakout rooms
 
 **Product:** Meeting Room
 **Type:** Feature

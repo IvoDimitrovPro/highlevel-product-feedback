@@ -1,4 +1,4 @@
-# MR-006 — Persistent participant/host defaults per room
+# MR-006 — Permissions: Save room defaults
 
 **Product:** Meeting Room
 **Type:** UX

@@ -1,4 +1,4 @@
-# MR-165 — Timed webinar actions
+# MR-165 — Webinars: Timed CTAs and actions
 
 **Product:** Meeting Room
 **Type:** Feature

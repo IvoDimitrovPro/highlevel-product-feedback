@@ -1,4 +1,4 @@
-# MEDIA-001 — Support Markdown files in Media Storage
+# MEDIA-001 — Media Storage: Accept Markdown files
 
 **Product:** Media Storage
 **Type:** File support

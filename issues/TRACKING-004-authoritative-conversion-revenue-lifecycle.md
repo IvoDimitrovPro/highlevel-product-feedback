@@ -1,4 +1,4 @@
-# TRACKING-004 — Tie attribution to verified orders, refunds and offline revenue lifecycle events
+# TRACKING-004 — Revenue: Match attribution to real orders
 
 **Product:** Platform
 **Type:** Integrations

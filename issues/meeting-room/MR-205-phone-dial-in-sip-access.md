@@ -1,4 +1,4 @@
-# MR-205 — Phone dial-in / SIP access
+# MR-205 — Access: Phone and SIP dial-in
 
 **Product:** Meeting Room
 **Type:** Feature

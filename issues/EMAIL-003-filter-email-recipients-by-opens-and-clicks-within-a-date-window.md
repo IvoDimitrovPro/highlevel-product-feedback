@@ -1,4 +1,4 @@
-# EMAIL-003 — Filter email recipients by opens and clicks within a date window
+# EMAIL-003 — Smart Lists: Filter opens and clicks by date
 
 **Product:** Email / Smart Lists
 **Type:** Filtering

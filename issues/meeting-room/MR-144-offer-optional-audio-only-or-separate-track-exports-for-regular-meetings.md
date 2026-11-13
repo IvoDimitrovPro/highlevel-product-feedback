@@ -1,4 +1,4 @@
-# MR-144 — Keep separate-track exports out of the core recording workflow
+# MR-144 — Audio exports: Separate tracks not pursued
 
 **Product:** Meeting Room
 **Type:** Feature

@@ -1,4 +1,4 @@
-# PLATFORM-002 — Make shared brand assets work across builders
+# PLATFORM-002 — Brand assets: Reuse across builders
 
 **Product:** Platform / Builders
 **Type:** UX

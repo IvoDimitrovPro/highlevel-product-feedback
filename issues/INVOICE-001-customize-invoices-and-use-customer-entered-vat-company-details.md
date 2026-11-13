@@ -1,4 +1,4 @@
-# INVOICE-001 — Customize invoices and use customer-entered VAT/company details
+# INVOICE-001 — Invoices: Customer VAT and company fields
 
 **Product:** Invoices / Documents
 **Type:** Customization

@@ -1,4 +1,4 @@
-# COMM-003 — Support light and dark logos across member-facing products
+# COMM-003 — Branding: Light and dark logos
 
 **Product:** Communities / Courses
 **Type:** Branding

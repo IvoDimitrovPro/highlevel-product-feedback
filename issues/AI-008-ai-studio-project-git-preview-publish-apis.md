@@ -1,4 +1,4 @@
-# AI-008 — Expose AI Studio project, Git sync, preview and publish lifecycle through API/MCP
+# AI-008 — AI Studio: Project lifecycle API and MCP
 
 **Product:** Ask AI / AI Studio
 

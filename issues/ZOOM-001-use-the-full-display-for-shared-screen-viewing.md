@@ -1,4 +1,4 @@
-# ZOOM-001 — Use the full display for shared-screen viewing
+# ZOOM-001 — Presentation: Full-screen sharing view
 
 **Product:** Meeting Room
 **Type:** UX

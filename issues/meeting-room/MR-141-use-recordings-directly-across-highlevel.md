@@ -1,4 +1,4 @@
-# MR-141 — Use recordings directly across HighLevel
+# MR-141 — Recordings: Reuse across HighLevel
 
 **Product:** Meeting Room
 **Type:** Feature

@@ -1,4 +1,4 @@
-# MR-207 — Mobile PiP / background behavior
+# MR-207 — Mobile: PiP and background support
 
 **Product:** Meeting Room
 **Type:** UX

@@ -1,4 +1,4 @@
-# TRACKING-002 — Make every tracking event accessible through a governed, open event stream
+# TRACKING-002 — Events: Governed open event stream
 
 **Product:** Platform
 **Type:** Integrations

@@ -1,4 +1,4 @@
-# PLATFORM-001 — Use regional timezone, week start, and 24-hour time consistently
+# PLATFORM-001 — Localization: Regional date and time
 
 **Product:** Platform
 **Type:** Localization

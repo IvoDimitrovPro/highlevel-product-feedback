@@ -1,4 +1,4 @@
-# AI-005 — Add safer account-wide AI defaults and opt-in migration controls
+# AI-005 — Admin: Safer AI defaults and migration
 
 **Product:** Ask AI / AI Studio
 **Type:** Account controls

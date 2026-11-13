@@ -1,4 +1,4 @@
-# AI-007 — Provide managed AI Studio Cloud schema and resource management APIs
+# AI-007 — AI Studio: Cloud schema and resource APIs
 
 **Product:** Ask AI / AI Studio
 

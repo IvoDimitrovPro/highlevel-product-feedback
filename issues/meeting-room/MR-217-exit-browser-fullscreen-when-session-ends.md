@@ -1,4 +1,4 @@
-# MR-217 — Exit browser fullscreen on meeting end
+# MR-217 — Fullscreen: Exit when meeting ends
 
 **Product:** Meeting Room
 **Type:** Bug

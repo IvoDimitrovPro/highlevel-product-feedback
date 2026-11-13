@@ -1,4 +1,4 @@
-# MR-107 — Trigger Workflows from meeting activity
+# MR-107 — Workflows: Trigger from meeting activity
 
 **Product:** Workflows
 **Type:** Feature

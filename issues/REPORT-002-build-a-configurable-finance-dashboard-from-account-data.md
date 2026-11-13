@@ -1,4 +1,4 @@
-# REPORT-002 — Build a configurable finance dashboard from account data
+# REPORT-002 — Finance: Configurable account dashboard
 
 **Product:** Reporting / Finance
 **Type:** Feature

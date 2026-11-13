@@ -1,4 +1,4 @@
-# EMAIL-002 — Make unsubscribe, DND, and renewed consent states clear
+# EMAIL-002 — Consent: Clear unsubscribe and DND states
 
 **Product:** Email / Contacts
 **Type:** UX

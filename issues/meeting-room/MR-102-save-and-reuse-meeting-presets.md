@@ -1,4 +1,4 @@
-# MR-102 — Save and reuse meeting presets
+# MR-102 — Presets: Save reusable room settings
 
 **Product:** Meeting Room
 **Type:** Feature

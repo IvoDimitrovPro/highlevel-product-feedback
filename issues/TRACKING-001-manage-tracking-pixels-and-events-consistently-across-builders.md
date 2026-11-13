@@ -1,4 +1,4 @@
-# TRACKING-001 — Manage tracking pixels and events consistently across builders
+# TRACKING-001 — Pixels: Consistent setup across builders
 
 **Product:** Forms / Surveys / Funnels / Stores
 **Type:** Integrations

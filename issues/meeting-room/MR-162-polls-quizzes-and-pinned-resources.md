@@ -1,4 +1,4 @@
-# MR-162 — Polls, quizzes and pinned resources
+# MR-162 — Webinars: Polls and pinned resources
 
 **Product:** Meeting Room
 **Type:** Feature

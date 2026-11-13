@@ -1,4 +1,4 @@
-# MR-210 — API/webhooks for meeting objects and events
+# MR-210 — Integrations: Room APIs and webhooks
 
 **Product:** Meeting Room
 **Type:** Platform

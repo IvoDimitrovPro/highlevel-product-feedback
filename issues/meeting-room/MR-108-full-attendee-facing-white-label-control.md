@@ -1,4 +1,4 @@
-# MR-108 — Full attendee-facing white-label control
+# MR-108 — Branding: Customize attendee pages
 
 **Product:** Meeting Room
 **Type:** Feature

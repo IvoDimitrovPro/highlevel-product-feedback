@@ -1,4 +1,4 @@
-# MR-143 — Basic recording cleanup/editing
+# MR-143 — Recordings: Trim and edit
 
 **Product:** Meeting Room
 **Type:** Feature

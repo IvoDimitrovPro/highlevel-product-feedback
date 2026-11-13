@@ -1,4 +1,4 @@
-# MR-120 — Platform-wide Translation & Label Manager
+# MR-120 — Localization: Central translation manager
 
 **Product:** Platform
 **Type:** Platform

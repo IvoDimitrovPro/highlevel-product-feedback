@@ -1,4 +1,4 @@
-# AI-001 — Let Ask AI use a managed Knowledge Base
+# AI-001 — Knowledge Base: Use managed sources
 
 **Product:** Ask AI
 **Type:** Feature

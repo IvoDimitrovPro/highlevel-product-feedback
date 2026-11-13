@@ -1,4 +1,4 @@
-# FORMS-001 — Apply contact tags directly on form and survey submission
+# FORMS-001 — Submissions: Apply tags automatically
 
 **Product:** Forms / Surveys / Quizzes
 **Type:** UX

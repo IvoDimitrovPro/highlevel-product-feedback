@@ -1,4 +1,4 @@
-# MR-146 — Rename recordings in the Recordings Hub
+# MR-146 — Recordings: Rename saved assets
 
 **Product:** Meeting Room
 **Type:** Feature

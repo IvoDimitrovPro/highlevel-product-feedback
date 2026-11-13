@@ -1,4 +1,4 @@
-# MR-203 — Real-time translated captions
+# MR-203 — Captions: Live translation
 
 **Product:** Meeting Room
 **Type:** Feature

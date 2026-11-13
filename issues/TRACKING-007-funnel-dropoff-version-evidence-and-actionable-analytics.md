@@ -1,4 +1,4 @@
-# TRACKING-007 — Explain funnel drop-offs, page versions and revenue opportunities with verifiable evidence
+# TRACKING-007 — Funnels: Explain drop-offs and revenue
 
 **Product:** Reporting
 **Type:** Feature

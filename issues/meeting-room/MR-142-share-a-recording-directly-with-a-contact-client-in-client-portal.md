@@ -1,4 +1,4 @@
-# MR-142 — Share a recording directly with a contact/client in Client Portal
+# MR-142 — Recordings: Share in Client Portal
 
 **Product:** Meeting Room
 **Type:** Feature

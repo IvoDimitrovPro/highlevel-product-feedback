@@ -1,4 +1,4 @@
-# AI-003 — Let external AI tools hand work into HighLevel builders
+# AI-003 — Integrations: Connect external AI to builders
 
 **Product:** Ask AI / API
 

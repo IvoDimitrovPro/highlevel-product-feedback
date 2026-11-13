@@ -1,4 +1,4 @@
-# MR-005 — Create instant or scheduled meetings from the manager
+# MR-005 — Scheduling: Instant and scheduled meetings
 
 **Product:** Meeting Room
 **Type:** Feature

@@ -1,4 +1,4 @@
-# TRACKING-006 — Make conversion distribution reliable, deduplicated and fully diagnosable
+# TRACKING-006 — Conversions: Reliable deduplication
 
 **Product:** Platform
 **Type:** Integrations

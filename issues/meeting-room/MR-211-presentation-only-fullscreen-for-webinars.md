@@ -1,4 +1,4 @@
-# MR-211 — Presentation-only fullscreen without participant tiles
+# MR-211 — Presentation: Content-only fullscreen
 
 **Product:** Meeting Room
 **Type:** UX
