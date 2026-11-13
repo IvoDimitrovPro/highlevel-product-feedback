@@ -15,6 +15,10 @@ Ivo sent beta feedback and received a point-by-point HighLevel response. The res
 - **2026-09-25** — Ivo supplied the complete point-by-point response excerpt from Praveen Gupta. The exact supplied text is now preserved in the source file and informs the issue statuses; MR-004, MR-121, and MR-202 were added.
 - **2026-09-25** — On final workflow review, Ivo separated the practical audio-only/transcript/chapter request (active MR-145) from the advanced separate-track idea (MR-144, closed as not pursuing). This replaces the earlier merge decision.
 
+## 2026-11-13 live webinar test
+
+A later live test documented eight previously untracked, concrete Meeting Room attendee/host issues (MR-211–MR-218) and added reproducible context to ten existing requests. See [sanitized test evidence](meeting-room-webinar-test-2026-11-13.md) and [prioritized issue index](../references/meeting-room-webinar-priorities-2026-11-13.md). This test did not include a public link or authorization to publish screenshots with attendee identities, private URLs or room passcodes. HighLevel's September status replies remain unchanged unless a later official statement proves otherwise.
+
 ## Related sessions and Zoom archive search
 
 The corrected date-bounded search is documented in [Zoom feedback index — 2026](zoom-feedback-index-2026.md): 33 matching chat files, 435 Ivo-authored messages, 2026-04-14 through 2026-09-18. The first search missed the 2026 meeting_saved_new_chat.txt format and incorrectly concluded there was no related feedback. The corrected index replaces that conclusion. January–March folders and later dated chat files were not present in the archive searched.

@@ -18,3 +18,9 @@ Connect registration and session analytics to acquisition source, attendance/eng
 
 ## HighLevel response
 Deeper session, attendance, engagement, recording, transcript, and later source/conversion/revenue reporting is already a major part of HighLevel plan.
+
+## Live webinar test follow-up — 2026-11-13
+
+**Source:** [Sanitized test notes](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-webinar-test-2026-11-13.md)
+
+The [official webinar funnel documentation](https://help.gohighlevel.com/support/solutions/articles/155000004125) already describes registration, attendance, viewing, and engagement analytics. The remaining request is to tie **native Meeting Room session** identity and watch duration to campaign/source, CRM events and downstream conversion reporting. Do not report webinar analytics as wholly missing.

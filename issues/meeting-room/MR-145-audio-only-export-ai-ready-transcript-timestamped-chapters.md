@@ -28,3 +28,9 @@ Praveen's response on MR-144 says reliable final audio mixing is the priority an
 
 ## Related feedback
 MR-144 preserves the historical separate-track suggestion, which Ivo has decided not to pursue.
+
+## Live webinar test follow-up — 2026-11-13
+
+**Source:** [Sanitized test notes](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-webinar-test-2026-11-13.md)
+
+In the 2026-11-13 Bulgarian-language test, transcription output was nonsensical English text, **not an English translation**. Users need explicit Bulgarian selection/recognition with correctly transcribed Bulgarian text. [HighLevel documents limited live language options](https://help.gohighlevel.com/support/solutions/articles/155000009149-meeting-room-in-highlevel-overview), while [Deepgram supports Bulgarian](https://developers.deepgram.com/docs/models-languages-overview). The vendor's available models and HighLevel's exposed real-time configuration are not necessarily identical. This is a reproduced account-level quality/language issue, not proof that all accounts are affected.

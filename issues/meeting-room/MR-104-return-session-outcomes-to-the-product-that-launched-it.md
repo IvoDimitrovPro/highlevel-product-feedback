@@ -18,3 +18,9 @@ Return attendance, recordings, transcripts, replays, and relevant analytics to t
 
 ## HighLevel response
 HighLevel intends to preserve source product context and return session data to Communities, Courses, Events, and related products.
+
+## Live webinar test follow-up — 2026-11-13
+
+**Source:** [Sanitized test notes](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-webinar-test-2026-11-13.md)
+
+For a live webinar started from a Sites > Webinars funnel, return the actual Meeting Room attendance/duration and recording/transcript outcome to that specific webinar occurrence. HighLevel already documents webinar-funnel analytics; this request is specifically for consistent room-to-funnel reconciliation, not a claim that all webinar analytics are absent.

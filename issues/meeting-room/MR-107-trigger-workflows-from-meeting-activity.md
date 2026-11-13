@@ -18,3 +18,9 @@ Expose native Workflow triggers/actions for meeting registration, join/no-show, 
 
 ## HighLevel response
 Meeting/session events are already planned for Workflows to trigger follow-ups and automations.
+
+## Live webinar test follow-up — 2026-11-13
+
+**Source:** [Sanitized test notes](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-webinar-test-2026-11-13.md)
+
+Prioritize webinar triggers based on verified Meeting Room participation (joined, left, duration, no-show and recording/transcript ready), linked to the correct contact and funnel session. HighLevel already provides funnel registration/reminder workflows; the missing requested scope is **room-level attendance-driven** automation rather than generic registration triggers.

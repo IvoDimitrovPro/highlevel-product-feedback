@@ -2,6 +2,12 @@
 
 This repository is the evidence archive. **GitHub Issues and the linked Project are the daily work surface.** One feedback item has one Issue permalink; duplicate sources are listed on that issue.
 
+## Meeting Room webinar readiness — 2026-11-13
+
+- [Prioritized webinar blocker list](references/meeting-room-webinar-priorities-2026-11-13.md) — new live-test issues and existing related requests, ordered by host/attendee impact.
+- [Sanitized live-test evidence](sources/meeting-room-webinar-test-2026-11-13.md) — observed behavior, official documentation and verification boundaries; no private room URLs or attendee screenshots.
+- [Meeting Room issues in GitHub](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues?q=is%3Aissue+label%3A%22Product%3A+Meeting+Room%22) — public tracker and ongoing status.
+
 ## Strategic tracking and attribution proposal — 2026-10-30
 
 - [Executive request to HighLevel](references/tracking-executive-request-to-highlevel-2026-10-30.md) — single link to forward to the product team.
