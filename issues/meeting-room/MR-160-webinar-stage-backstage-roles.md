@@ -20,6 +20,8 @@ Backstage/practice area; host/co-host/producer/panelist/audience roles; bring sp
 ## HighLevel response
 HighLevel agrees webinars need dedicated roles and stage/audience behavior distinct from standard meetings.
 
+**New 2026-11-13 reply:** A dedicated webinar UI/experience, with improved host controls and a smoother attendee experience, is broadly planned. The specific stage/backstage and role requirements of MR-160 have no explicit commitment. [Source](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/highlevel-meeting-room-webinar-response-2026-11-13.md).
+
 ## Live webinar test follow-up — 2026-11-13
 
 **Source:** [Sanitized test notes](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-webinar-test-2026-11-13.md)

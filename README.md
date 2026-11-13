@@ -4,6 +4,8 @@ This repository is the evidence archive. **GitHub Issues and the linked Project 
 
 ## Meeting Room webinar readiness — 2026-11-13
 
+- [Praveen's 2026-11-13 reply](sources/highlevel-meeting-room-webinar-response-2026-11-13.md) - planned webinar UI, acknowledged observations, and explained pwd behavior.
+- [MR-219 - Planned dedicated webinar UI](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/89) - confirmed broad initiative, without promising individual feature delivery.
 - [Prioritized webinar blocker list](references/meeting-room-webinar-priorities-2026-11-13.md) — new live-test issues and existing related requests, ordered by host/attendee impact.
 - [Sanitized live-test evidence](sources/meeting-room-webinar-test-2026-11-13.md) — observed behavior, official documentation and verification boundaries; no private room URLs or attendee screenshots.
 - [Meeting Room issues in GitHub](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues?q=is%3Aissue+label%3A%22Product%3A+Meeting+Room%22) — public tracker and ongoing status.
@@ -14,11 +16,18 @@ This repository is the evidence archive. **GitHub Issues and the linked Project 
 - [Full engineering contract and 16 acceptance tests](references/tracking-open-attribution-platform-2026-10-30.md) — cross-platform event access, consent-aware journeys, verified revenue, attribution, CAPI quality and actionable analytics.
 - The six distinct requests are [TRACKING-002](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/75) through [TRACKING-007](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/80). Existing [TRACKING-001](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/64) remains the owner of consistent pixel/GTM setup across builders.
 
-## Start here
+## Start here — visual GitHub Projects boards
 
-- [Project: Active](https://github.com/users/IvoDimitrovPro/projects/1/views/1) — default view for New, Acknowledged, and Planned items.
+- **[Meeting Rooms — Kanban](https://github.com/users/IvoDimitrovPro/projects/1/views/9)** — all Meeting Room requests, including cross-product integrations, grouped by Status.
+- **[Active — Kanban](https://github.com/users/IvoDimitrovPro/projects/1/views/1)** — default board for New / Acknowledged / Planned items across all products.
+- **[All Products — Kanban](https://github.com/users/IvoDimitrovPro/projects/1/views/10)** — complete board, including shipped and closed items.
+- **[All / Archive — Table](https://github.com/users/IvoDimitrovPro/projects/1/views/2)** — full searchable table with all statuses.
+
+Click any card for observations, expected behavior and the HighLevel response. Dragging a card changes its **Project status** immediately; retain a source-backed Issue/CSV status update before running the repository-to-GitHub sync, which otherwise treats local issue files as authoritative.
+
+## Other focused views
+
 - [Priority / Next to send](https://github.com/users/IvoDimitrovPro/projects/1/views/8) — New items with High impact.
-- [All / Archive](https://github.com/users/IvoDimitrovPro/projects/1/views/2) — full history, including shipped and closed items.
 - [Needs HighLevel Reply](https://github.com/users/IvoDimitrovPro/projects/1/views/3) — New items.
 - [Planned](https://github.com/users/IvoDimitrovPro/projects/1/views/4)
 - [By Product](https://github.com/users/IvoDimitrovPro/projects/1/views/5) — active items with Product and Feedback type fields.

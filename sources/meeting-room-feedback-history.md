@@ -24,6 +24,10 @@ A later live test documented eight previously untracked, concrete Meeting Room a
 The corrected date-bounded search is documented in [Zoom feedback index — 2026](zoom-feedback-index-2026.md): 33 matching chat files, 435 Ivo-authored messages, 2026-04-14 through 2026-09-18. The first search missed the 2026 meeting_saved_new_chat.txt format and incorrectly concluded there was no related feedback. The corrected index replaces that conclusion. January–March folders and later dated chat files were not present in the archive searched.
 
 The other locally indexed GHL-named sessions and Проблеми-с-GHL-продажби.md concern RoasFlow/HighLevel selling rather than Meeting Room feedback, so they are not attributed as Meeting Room product requests.
+## 2026-11-13 developer follow-up
+
+[Praveen's response](highlevel-meeting-room-webinar-response-2026-11-13.md) acknowledges the submitted list and confirms a broad planned webinar UI/UX initiative, but not precise item-level features or timelines. Guest passcode behavior with full invite URLs containing pwd is expected. MR-211–MR-217 are Acknowledged; MR-218 is Closed — Works as designed.
+
 ## Interpretation rule
 
 Treat issue text as a concise summary, not a quote. Use the issue's source and HighLevel response fields to distinguish direct Zoom feedback, submitted beta feedback, unsubmitted suggestions, and documentation-based status checks. Keep only New / Acknowledged / Planned in Active; shipped or works-as-designed items remain searchable in history.

@@ -76,6 +76,8 @@ def ensure_issue(row: dict[str, str], meta: dict[str, str], apply: bool) -> int:
     source_label = desired_source_label(meta["Source"])
     if source_label:
         desired_core.append(source_label)
+    if meta["ID"].startswith("MR-"):
+        desired_core.append("Area: Meeting Rooms")
     remove = [
         x for x in current_labels
         if x.startswith(CATEGORY_PREFIXES) and x not in desired_core
