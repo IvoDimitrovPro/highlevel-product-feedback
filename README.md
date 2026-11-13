@@ -30,9 +30,7 @@ Each product area has its own saved Status-based board, with concise issue title
 The same GitHub Issue may appear in multiple related products without duplicating it.
 The stable ID, URL, evidence, and HighLevel reply live on that one issue.
 
-- [Active — all products](https://github.com/users/IvoDimitrovPro/projects/1/views/1) — default view for unresolved requests.
 - [All Products — all statuses](https://github.com/users/IvoDimitrovPro/projects/1/views/10)
-- [All / Archive — searchable table](https://github.com/users/IvoDimitrovPro/projects/1/views/2)
 
 - [Meeting Rooms](https://github.com/users/IvoDimitrovPro/projects/1/views/9)
 - [Webinars](https://github.com/users/IvoDimitrovPro/projects/1/views/11)
@@ -52,15 +50,6 @@ The stable ID, URL, evidence, and HighLevel reply live on that one issue.
 - [Invoices & Documents](https://github.com/users/IvoDimitrovPro/projects/1/views/25)
 - [Tasks & Helpdesk](https://github.com/users/IvoDimitrovPro/projects/1/views/26)
 
-## Other focused views
-
-- [Priority / Next to send](https://github.com/users/IvoDimitrovPro/projects/1/views/8) — New items with High impact.
-- [Needs HighLevel Reply](https://github.com/users/IvoDimitrovPro/projects/1/views/3) — New items.
-- [Planned](https://github.com/users/IvoDimitrovPro/projects/1/views/4)
-- [By Product](https://github.com/users/IvoDimitrovPro/projects/1/views/5) — active items with Product and Feedback type fields.
-- [Shipped](https://github.com/users/IvoDimitrovPro/projects/1/views/6)
-- [Closed / History](https://github.com/users/IvoDimitrovPro/projects/1/views/7)
-
 The Project is linked to this repository. It tracks Status, Product, Feedback type, Impact, Source, HighLevel response, Date reported, and Last verified. GitHub reserves the exact custom field name `Type`, so the board calls it `Feedback type`; Issues also carry the requested `Type: ...` labels.
 
 ## Status definitions
@@ -72,7 +61,7 @@ The Project is linked to this repository. It tracks Status, Product, Feedback ty
 - **Closed — Works as designed** — expected behavior or a supported-flow misunderstanding.
 - **Closed — Not pursuing** — intentionally dropped.
 
-Closed and shipped issues stay searchable. Only New / Acknowledged / Planned belong in Active.
+Closed and shipped issues remain searchable in All Products and the relevant product Kanban boards. Product boards display all statuses.
 
 ## Sources and evidence
 
