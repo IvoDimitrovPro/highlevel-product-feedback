@@ -8,7 +8,7 @@
 **Impact:** High
 
 ## Observed
-The tested direct room join flow requested a display name but did not offer configurable email/phone fields. A webinar registrant was not automatically recognized/prefilled in this flow.
+The tested direct room join flow requested a display name but did not offer configurable email/phone fields. Automatic prefilling for a previously registered webinar attendee was requested but not independently tested.
 
 ## Why it matters
 Direct-link hosts cannot capture the contact information they need; registered users may need to enter details twice.

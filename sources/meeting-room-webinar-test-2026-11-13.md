@@ -7,7 +7,7 @@ First-hand user observations from a live HighLevel Meeting Room test (host and i
 1. Presentation shares occupy less screen area than necessary because attendee tiles remain visible; user wants content-only fullscreen (MR-211).
 2. A host actively presenting must manually admit attendees who arrive after the start (MR-212).
 3. Attendees can annotate shared content, without an available annotation permission toggle in the tested host panel (MR-213).
-4. Direct room join requests a name, not configurable CRM fields; webinar registrants are not prefilled in the tested entry flow (MR-214).
+4. Direct room join requested a name, not configurable CRM fields. Prefilling previously registered webinar attendees is a requested behavior, not separately verified in this test (MR-214).
 5. End-of-room feedback page lacks configurable webinar CTA/redirect options (MR-215); waiting/join page content also needs improvement (MR-108).
 6. After leave/rejoin, attendee name and audio/video settings are not preserved in the test (MR-216).
 7. Room-controlled fullscreen persists on the generic feedback page when the session ends (MR-217).
