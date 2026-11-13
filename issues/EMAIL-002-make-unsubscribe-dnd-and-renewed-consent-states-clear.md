@@ -18,3 +18,15 @@ Show unsubscribe, DND, and consent as distinct understandable states; when a con
 
 ## HighLevel response
 No fix established in the messages reviewed.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Community members can manage individual Community notification email subscriptions without unsubscribing from other areas.
+
+**Scope decision:** Contact-level DND, marketing unsubscribe, re-consent and auditable state transitions remain separate requirements.
+
+**Official sources:** [Granular unsubscribe controls for Community emails](https://ideas.gohighlevel.com/changelog/granular-unsubscribe-controls-for-community-emails).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

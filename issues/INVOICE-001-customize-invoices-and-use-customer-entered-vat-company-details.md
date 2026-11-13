@@ -18,3 +18,15 @@ Allow full invoice/document template customization and map customer-entered comp
 
 ## HighLevel response
 HighLevel discussed pixel-level document customization and custom values for receipts; Ivo still reported the gap in July. Delivery unverified.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Custom invoice layouts and visual editing are released behind the AI-Powered Custom Invoice Layouts Labs toggle.
+
+**Scope decision:** Automatic legal company/VAT/tax/address collection at checkout and mapping to invoices/receipts is not confirmed.
+
+**Official sources:** [Design Custom Invoice Layouts with the New AI-Powered Layout Builder](https://ideas.gohighlevel.com/changelog/design-custom-invoice-layouts-with-the-new-ai-powered-layout-builder).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

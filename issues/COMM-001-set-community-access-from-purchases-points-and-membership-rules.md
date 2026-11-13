@@ -18,3 +18,15 @@ Allow Community access to be granted or revoked from purchases, products/offers,
 
 ## HighLevel response
 No direct response or verified implementation recorded.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Community subscription plans can grant bundled access to selected channels, paid events and paid/private courses; members can switch plans.
+
+**Scope decision:** Generic purchases/products/offers, tags, points and grant/revoke precedence across external purchase routes are not established.
+
+**Official sources:** [Multiple Pricing Plans in Communities](https://ideas.gohighlevel.com/changelog/multiple-pricing-plans-in-communities).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

@@ -34,3 +34,15 @@ An agent can code without AI Studio tokens but still needs manual platform steps
 ## HighLevel response
 
 Git synchronization and Snapshot copy have shipped. No published confirmation of the requested **external AI Studio project lifecycle management API** was established; do not confuse it with the separate Agent Studio Public API.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Two-way Git sync, branch selection, history, preview rebuild and project Git controls are shipped.
+
+**Scope decision:** Supported external project create/clone/preview/publish/rollback API/MCP and isolated native Cloud binding operations are not documented.
+
+**Official sources:** [AI Studio: Git Sync with GitHub](https://ideas.gohighlevel.com/changelog/ai-studio-git-sync-with-github).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

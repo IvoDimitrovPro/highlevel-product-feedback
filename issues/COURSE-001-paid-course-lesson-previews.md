@@ -22,3 +22,15 @@ On 2026-04-14, a HighLevel representative said the Free Preview Option was in th
 ## Evidence
 - Zoom Product Town Hall chat: 2026-04-14 and 2026-06-19.
 - [How to Build Courses and Membership Sites](https://help.gohighlevel.com/support/solutions/articles/48001141015)
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Client Portal Labs can surface unpurchased Courses and offers with thumbnails, descriptions, pricing and a path to checkout.
+
+**Scope decision:** Selectable unlocked preview LESSONS/modules within a still-paid course are not demonstrated.
+
+**Official sources:** [Discover Courses & Offers: Turn Your Client Portal Into a Storefront](https://ideas.gohighlevel.com/changelog/discover-courses-offers-turn-your-client-portal-into-a-storefront).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

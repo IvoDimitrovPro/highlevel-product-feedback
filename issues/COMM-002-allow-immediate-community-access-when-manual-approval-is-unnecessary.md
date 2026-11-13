@@ -18,3 +18,15 @@ Allow configured Communities/groups/events to grant immediate access to eligible
 
 ## HighLevel response
 No implementation or response established.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Members can self-pay and join an individual visible private paid channel without an administrator manually admitting each buyer.
+
+**Scope decision:** General Community/group/event approval bypass for already eligible members is not confirmed.
+
+**Official sources:** [Paid channels in Communities](https://ideas.gohighlevel.com/changelog/paid-channels-in-communities).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

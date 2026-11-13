@@ -18,3 +18,15 @@ Allow Forms, Surveys, and Quizzes to apply contact tags directly on submission w
 
 ## HighLevel response
 No response or resolution established.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Forms/Surveys/Quizzes now expose existing workflow connections and create-workflow shortcuts in an Integrate tab.
+
+**Scope decision:** Assigning contact TAGS directly at submission without a separate workflow is not stated.
+
+**Official sources:** [Introducing the New Integrate Experience in Forms, Surveys & Quizzes!](https://ideas.gohighlevel.com/changelog/introducing-the-new-integrate-experience-in-forms-surveys-quizzes).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

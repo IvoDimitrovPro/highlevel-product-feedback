@@ -18,3 +18,15 @@ Let users choose/reorder useful columns, sort/filter data, save views, and expor
 
 ## HighLevel response
 Other table/reporting needs remain open.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Dashboard general widgets support saved filters, date overrides, comparison, rename, themes and cloning.
+
+**Scope decision:** Consistent choose/reorder/export columns, save views and table export across all Reporting surfaces is not released here.
+
+**Official sources:** [Configure and filter your general widgets in sub-account dashboards](https://ideas.gohighlevel.com/changelog/configure-and-filter-your-general-widgets-in-sub-account-dashboards).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

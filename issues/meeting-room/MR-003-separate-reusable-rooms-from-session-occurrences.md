@@ -22,3 +22,15 @@ HighLevel is moving toward reusable Room configuration separated from individual
 ## November 2026 roadmap cross-reference
 
 Multiple personal rooms per user are now planned for November (MR-224). A new room count is distinct from this issue's room-versus-session data model and does not prove session history/reporting separation is delivered. [Source](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Permanent personal room links and a separate Meeting History exist.
+
+**Scope decision:** A documented full reusable-room versus per-occurrence data model with all its session-scoped settings/relationships is not confirmed.
+
+**Official sources:** [Introducing Meeting Room](https://ideas.gohighlevel.com/changelog/introducing-meeting-room).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

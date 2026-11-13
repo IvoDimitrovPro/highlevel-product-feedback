@@ -23,3 +23,15 @@ HighLevel intends recordings to be reusable across its products, including shari
 ## November 2026 roadmap cross-reference
 
 Praveen announced generic Recording Sharing planned for the week of November 16–22, 2026. This may help this reusable-asset workflow, but **does not commit** to embedding/attaching a recording across CRM, Courses, Events, Webinars and Media Storage. Keep Acknowledged. [Source](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Recording/history assets exist in Meeting Rooms.
+
+**Scope decision:** Direct reuse across Contacts, Community, Course, Webinar, and Media Storage without download/re-upload is not verified.
+
+**Official sources:** [Introducing Meeting Room](https://ideas.gohighlevel.com/changelog/introducing-meeting-room).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

@@ -1,0 +1,1018 @@
+{
+  "as_of": "2026-11-13",
+  "source_root": "https://ideas.gohighlevel.com/changelog",
+  "official_rss": "https://ideas.gohighlevel.com/api/changelog/feed.rss",
+  "index_method": "Month archive listings (Aug-Nov 2026) used to discover posts, then official changelog pages fetched for 32 relevant candidates; specific older issues searched separately. Includes 13-Nov feed entries.",
+  "changelog_index_count": 296,
+  "official_articles_read": 32,
+  "issues_reviewed": 95,
+  "status_change_issues": [
+    "MR-201"
+  ],
+  "issue_results": [
+    {
+      "id": "AFFILIATE-001",
+      "issue_number": 1,
+      "title": "Wallets: Credit affiliate earnings",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "AI-001",
+      "issue_number": 2,
+      "title": "Knowledge Base: Use managed sources",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "AI-002",
+      "issue_number": 3,
+      "title": "Usage: Show model limits and costs",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "AI-003",
+      "issue_number": 4,
+      "title": "Integrations: Connect external AI to builders",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/workflows-now-in-mcp-ask-your-ai-assistant-to-build-debug-and-publish-workflows"
+      ],
+      "note": "Official LeadConnector MCP support can create/debug/publish Workflows in private beta. / Remaining: A generic supported external-agent handoff to Websites/Funnels and all AI Studio native builders is not established."
+    },
+    {
+      "id": "AI-004",
+      "issue_number": 5,
+      "title": "Course imports: Preserve content and structure",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "AI-005",
+      "issue_number": 6,
+      "title": "Admin: Safer AI defaults and migration",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "AI-006",
+      "issue_number": 67,
+      "title": "Language: Remember preference and page context",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "AI-007",
+      "issue_number": 72,
+      "title": "AI Studio: Cloud schema and resource APIs",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/ai-studio-cloud-a-built-in-backend-for-your-apps"
+      ],
+      "note": "AI Studio Cloud offers project-owned backend UI for DB/Auth/Storage and chat-driven schema creation. / Remaining: Supported external API/MCP for tenant-scoped DDL, RLS migrations, Cloud provisioning and lifecycle is not established."
+    },
+    {
+      "id": "AI-008",
+      "issue_number": 73,
+      "title": "AI Studio: Project lifecycle API and MCP",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/ai-studio-git-sync-with-github"
+      ],
+      "note": "Two-way Git sync, branch selection, history, preview rebuild and project Git controls are shipped. / Remaining: Supported external project create/clone/preview/publish/rollback API/MCP and isolated native Cloud binding operations are not documented."
+    },
+    {
+      "id": "BUILDER-001",
+      "issue_number": 7,
+      "title": "Builders: Consistent editing controls",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "CHECKOUT-001",
+      "issue_number": 8,
+      "title": "Checkout: Simplify one- and two-step setup",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "COMM-001",
+      "issue_number": 9,
+      "title": "Access: Grant membership from purchases",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/multiple-pricing-plans-in-communities"
+      ],
+      "note": "Community subscription plans can grant bundled access to selected channels, paid events and paid/private courses; members can switch plans. / Remaining: Generic purchases/products/offers, tags, points and grant/revoke precedence across external purchase routes are not established."
+    },
+    {
+      "id": "COMM-002",
+      "issue_number": 10,
+      "title": "Access: Skip unnecessary manual approval",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/paid-channels-in-communities"
+      ],
+      "note": "Members can self-pay and join an individual visible private paid channel without an administrator manually admitting each buyer. / Remaining: General Community/group/event approval bypass for already eligible members is not confirmed."
+    },
+    {
+      "id": "COMM-003",
+      "issue_number": 11,
+      "title": "Branding: Light and dark logos",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/dark-mode-for-communities-courses-in-gokollab"
+      ],
+      "note": "GoKollab web now supports independent light/dark palettes for Communities and Courses. / Remaining: Automatic switching between distinct light/dark LOGO assets across Community/Courses/Portal is not documented."
+    },
+    {
+      "id": "COMM-004",
+      "issue_number": 12,
+      "title": "Profiles: Consistent identity and navigation",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "COMM-005",
+      "issue_number": 74,
+      "title": "Premium channels: Link products and access",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/paid-channels-in-communities",
+        "https://ideas.gohighlevel.com/changelog/multiple-pricing-plans-in-communities"
+      ],
+      "note": "Visible/hidden paid channels support recurring/one-time checkout; community plans bundle channel/course/event access. / Remaining: The requested binding to an existing external Product/Offer and its checkout, independent time-limited entitlements, attribution and refunds is not shown."
+    },
+    {
+      "id": "COURSE-001",
+      "issue_number": 13,
+      "title": "Lessons: Preview paid course content",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/discover-courses-offers-turn-your-client-portal-into-a-storefront"
+      ],
+      "note": "Client Portal Labs can surface unpurchased Courses and offers with thumbnails, descriptions, pricing and a path to checkout. / Remaining: Selectable unlocked preview LESSONS/modules within a still-paid course are not demonstrated."
+    },
+    {
+      "id": "EMAIL-001",
+      "issue_number": 14,
+      "title": "Domains: Native inbox and deliverability",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/email-domain-warm-up-is-here-for-lc-email-beta"
+      ],
+      "note": "LC Email beta includes dedicated-domain warm-up and SPF/DKIM/DMARC/MX and deliverability health reports. / Remaining: A native receiving/replying inbox for HighLevel-managed/sold domains is not covered; beta may require approval."
+    },
+    {
+      "id": "EMAIL-002",
+      "issue_number": 15,
+      "title": "Consent: Clear unsubscribe and DND states",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/granular-unsubscribe-controls-for-community-emails"
+      ],
+      "note": "Community members can manage individual Community notification email subscriptions without unsubscribing from other areas. / Remaining: Contact-level DND, marketing unsubscribe, re-consent and auditable state transitions remain separate requirements."
+    },
+    {
+      "id": "EMAIL-003",
+      "issue_number": 16,
+      "title": "Smart Lists: Filter opens and clicks by date",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "EMAIL-004",
+      "issue_number": 68,
+      "title": "AI content: Prevent empty email fields",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "FORMS-001",
+      "issue_number": 17,
+      "title": "Submissions: Apply tags automatically",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-the-new-integrate-experience-in-forms-surveys-quizzes"
+      ],
+      "note": "Forms/Surveys/Quizzes now expose existing workflow connections and create-workflow shortcuts in an Integrate tab. / Remaining: Assigning contact TAGS directly at submission without a separate workflow is not stated."
+    },
+    {
+      "id": "INVOICE-001",
+      "issue_number": 18,
+      "title": "Invoices: Customer VAT and company fields",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/design-custom-invoice-layouts-with-the-new-ai-powered-layout-builder"
+      ],
+      "note": "Custom invoice layouts and visual editing are released behind the AI-Powered Custom Invoice Layouts Labs toggle. / Remaining: Automatic legal company/VAT/tax/address collection at checkout and mapping to invoices/receipts is not confirmed."
+    },
+    {
+      "id": "MEDIA-001",
+      "issue_number": 19,
+      "title": "Media Storage: Accept Markdown files",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-001",
+      "issue_number": 43,
+      "title": "Audio sharing: Browser-tab limitation",
+      "status_after_review": "Closed — Works as designed",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-002",
+      "issue_number": 44,
+      "title": "Sessions: Show live state everywhere",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-003",
+      "issue_number": 45,
+      "title": "Rooms: Separate settings from sessions",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-meeting-room"
+      ],
+      "note": "Permanent personal room links and a separate Meeting History exist. / Remaining: A documented full reusable-room versus per-occurrence data model with all its session-scoped settings/relationships is not confirmed."
+    },
+    {
+      "id": "MR-004",
+      "issue_number": 69,
+      "title": "Access: Configurable join modes",
+      "status_after_review": "Shipped",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-005",
+      "issue_number": 46,
+      "title": "Scheduling: Instant and scheduled meetings",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-meeting-room"
+      ],
+      "note": "Meeting Room launched with a Start instant meeting action directly in the Meeting Room product. / Remaining: A Schedule Meeting action directly inside Meeting Room (rather than Calendars), with session-specific access options, is not established."
+    },
+    {
+      "id": "MR-006",
+      "issue_number": 20,
+      "title": "Permissions: Save room defaults",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-meeting-room"
+      ],
+      "note": "Meeting Room includes co-hosts and live participant microphone/camera/screen-sharing controls. / Remaining: Persistent per-room default policies and override semantics remain distinct; a later November roadmap promise is not proof of release."
+    },
+    {
+      "id": "MR-007",
+      "issue_number": 21,
+      "title": "Recording: Automate transcripts and AI notes",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-101",
+      "issue_number": 47,
+      "title": "Integrations: Select or create rooms inline",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-102",
+      "issue_number": 48,
+      "title": "Presets: Save reusable room settings",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-103",
+      "issue_number": 49,
+      "title": "Calendars: Session per appointment",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-meeting-room"
+      ],
+      "note": "A separate Meeting Room URL is automatically generated per Calendar appointment. / Remaining: Linking the exact appointment/contact to attendance, recordings, transcript and outcomes end-to-end is not established."
+    },
+    {
+      "id": "MR-104",
+      "issue_number": 50,
+      "title": "Integrations: Return session outcomes",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-105",
+      "issue_number": 22,
+      "title": "Teams: Shared ownership and backup hosts",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-106",
+      "issue_number": 51,
+      "title": "CRM: Link attendees and sessions",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-107",
+      "issue_number": 52,
+      "title": "Workflows: Trigger from meeting activity",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-108",
+      "issue_number": 23,
+      "title": "Branding: Customize attendee pages",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-120",
+      "issue_number": 24,
+      "title": "Localization: Central translation manager",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-121",
+      "issue_number": 70,
+      "title": "Localization: Reuse shared translations",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-140",
+      "issue_number": 25,
+      "title": "Recording Hub: Organize recordings",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-meeting-room"
+      ],
+      "note": "Meeting History can show recordings and transcripts. / Remaining: The requested asset library with folders, tags, search, bulk controls, ownership and retention is not documented."
+    },
+    {
+      "id": "MR-141",
+      "issue_number": 26,
+      "title": "Recordings: Reuse across HighLevel",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-meeting-room"
+      ],
+      "note": "Recording/history assets exist in Meeting Rooms. / Remaining: Direct reuse across Contacts, Community, Course, Webinar, and Media Storage without download/re-upload is not verified."
+    },
+    {
+      "id": "MR-142",
+      "issue_number": 27,
+      "title": "Recordings: Share in Client Portal",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-143",
+      "issue_number": 28,
+      "title": "Recordings: Trim and edit",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-144",
+      "issue_number": 53,
+      "title": "Audio exports: Separate tracks not pursued",
+      "status_after_review": "Closed — Not pursuing",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-145",
+      "issue_number": 29,
+      "title": "Transcripts: Export audio, captions and chapters",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-meeting-room"
+      ],
+      "note": "The launched Meeting Room supports speaker-labeled transcripts and AI summaries alongside recordings. / Remaining: Audio-only export, export formats and AI-generated timestamped chapters remain unconfirmed; Bulgarian language works in the user's separate test."
+    },
+    {
+      "id": "MR-146",
+      "issue_number": 54,
+      "title": "Recordings: Rename saved assets",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-160",
+      "issue_number": 30,
+      "title": "Webinars: Presenter and audience roles",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-161",
+      "issue_number": 31,
+      "title": "Webinars: Moderated Q&A",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-162",
+      "issue_number": 32,
+      "title": "Webinars: Polls and pinned resources",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-163",
+      "issue_number": 33,
+      "title": "Webinars: Play media directly",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-164",
+      "issue_number": 34,
+      "title": "Webinars: Automated and simulive sessions",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-165",
+      "issue_number": 35,
+      "title": "Webinars: Timed CTAs and actions",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-201",
+      "issue_number": 36,
+      "title": "Workshops: Breakout rooms",
+      "status_after_review": "Shipped",
+      "reviewed_on": "2026-11-13",
+      "assessment": "shipped",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-breakout-rooms-in-meeting-room"
+      ],
+      "note": "Breakout Rooms are officially live: up to 100 rooms, manual/automatic assignments, host moves/broadcasts, timers, participant returns, and per-room recording/transcription. / Remaining: The requested host assignment, return and basic session timing are all covered."
+    },
+    {
+      "id": "MR-202",
+      "issue_number": 71,
+      "title": "Workshops: Shared whiteboard and notes",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-203",
+      "issue_number": 37,
+      "title": "Captions: Live translation",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-204",
+      "issue_number": 55,
+      "title": "Broadcast: RTMP streaming",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-205",
+      "issue_number": 38,
+      "title": "Access: Phone and SIP dial-in",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-206",
+      "issue_number": 39,
+      "title": "Diagnostics: Live quality metrics",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-207",
+      "issue_number": 40,
+      "title": "Mobile: PiP and background support",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/introducing-meeting-room"
+      ],
+      "note": "The original launch describes picture-in-picture multitasking. / Remaining: Mobile-background playback or mobile PiP behavior is not documented by this release."
+    },
+    {
+      "id": "MR-208",
+      "issue_number": 41,
+      "title": "Accessibility: Join-to-exit experience",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-209",
+      "issue_number": 56,
+      "title": "Analytics: Connect attendance to revenue",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-210",
+      "issue_number": 42,
+      "title": "Integrations: Room APIs and webhooks",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-211",
+      "issue_number": 81,
+      "title": "Presentation: Content-only fullscreen",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-212",
+      "issue_number": 82,
+      "title": "Admissions: Auto-admit late attendees",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-213",
+      "issue_number": 83,
+      "title": "Annotations: Restrict attendee drawing",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-214",
+      "issue_number": 84,
+      "title": "Registration: Custom fields and prefill",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-215",
+      "issue_number": 85,
+      "title": "Post-webinar: CTAs and redirects",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-216",
+      "issue_number": 86,
+      "title": "Rejoin: Remember name and devices",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-217",
+      "issue_number": 87,
+      "title": "Fullscreen: Exit when meeting ends",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-218",
+      "issue_number": 88,
+      "title": "Passcodes: Clarify guest link behavior",
+      "status_after_review": "Closed — Works as designed",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-219",
+      "issue_number": 89,
+      "title": "Webinars: Dedicated attendee experience",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-220",
+      "issue_number": 90,
+      "title": "Transcription: Make language selection discoverable",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-221",
+      "issue_number": 91,
+      "title": "Stability: Fix audio and video interruptions",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-222",
+      "issue_number": 92,
+      "title": "Microphone: Explain browser permissions",
+      "status_after_review": "Acknowledged",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-223",
+      "issue_number": 93,
+      "title": "Screen share: Let hosts stop participant sharing",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-224",
+      "issue_number": 94,
+      "title": "Rooms: Create multiple personal rooms",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "MR-225",
+      "issue_number": 95,
+      "title": "Defaults: Configure subaccount meetings",
+      "status_after_review": "Planned",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "ORDERS-001",
+      "issue_number": 57,
+      "title": "Orders: Expose IDs in exports and workflows",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "PLATFORM-001",
+      "issue_number": 58,
+      "title": "Localization: Regional date and time",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "PLATFORM-002",
+      "issue_number": 59,
+      "title": "Brand assets: Reuse across builders",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/templates-in-your-brand-colors"
+      ],
+      "note": "Template preview can use a Brand Board's selected color palette. / Remaining: Consistent Brand Board colors/fonts/logos/media across all builders is not demonstrated."
+    },
+    {
+      "id": "REPORT-001",
+      "issue_number": 60,
+      "title": "Dashboards: Customize and export tables",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/configure-and-filter-your-general-widgets-in-sub-account-dashboards"
+      ],
+      "note": "Dashboard general widgets support saved filters, date overrides, comparison, rename, themes and cloning. / Remaining: Consistent choose/reorder/export columns, save views and table export across all Reporting surfaces is not released here."
+    },
+    {
+      "id": "REPORT-002",
+      "issue_number": 61,
+      "title": "Finance: Configurable account dashboard",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "SAAS-001",
+      "issue_number": 62,
+      "title": "Billing: Limited-time offers and proration",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "TASK-001",
+      "issue_number": 63,
+      "title": "Tasks: Show in mobile and Helpdesk",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "TRACKING-001",
+      "issue_number": 64,
+      "title": "Pixels: Consistent setup across builders",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/meta-pixel-improved-initiatecheckout-accuracy-enhanced-addpaymentinfo-data"
+      ],
+      "note": "Meta InitiateCheckout timing/deduplication and AddPaymentInfo payloads improved for configured funnels/websites/stores. / Remaining: One reusable cross-builder Pixel/CAPI/GTM tracking hub with verified Purchase diagnostics remains unconfirmed."
+    },
+    {
+      "id": "TRACKING-002",
+      "issue_number": 75,
+      "title": "Events: Governed open event stream",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "TRACKING-003",
+      "issue_number": 76,
+      "title": "Journeys: Connect users across devices",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "TRACKING-004",
+      "issue_number": 77,
+      "title": "Revenue: Match attribution to real orders",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "TRACKING-005",
+      "issue_number": 78,
+      "title": "Attribution: Multi-touch ROI reporting",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "TRACKING-006",
+      "issue_number": 79,
+      "title": "Conversions: Reliable deduplication",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/meta-pixel-improved-initiatecheckout-accuracy-enhanced-addpaymentinfo-data"
+      ],
+      "note": "The Meta Pixel release fixes duplicate InitiateCheckout events per page and improves AddPaymentInfo values; existing CAPI/browser Meta dedup continues. / Remaining: Provider-wide reliably deduplicated conversion distribution with diagnosable failures/retries, source reconciliation and other channels is not proven."
+    },
+    {
+      "id": "TRACKING-007",
+      "issue_number": 80,
+      "title": "Funnels: Explain drop-offs and revenue",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "partial",
+      "changelog_urls": [
+        "https://ideas.gohighlevel.com/changelog/meta-pixel-improved-initiatecheckout-accuracy-enhanced-addpaymentinfo-data"
+      ],
+      "note": "Meta InitiateCheckout now fires when checkout starts, giving a clearer checkout-versus-payment abandonment signal. / Remaining: Full source/page-version funnel dropoff diagnostics, verifiable revenue and next-action recommendations are outside that narrow change."
+    },
+    {
+      "id": "WEB-001",
+      "issue_number": 65,
+      "title": "Guest access: Join without community signup",
+      "status_after_review": "New",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    },
+    {
+      "id": "ZOOM-001",
+      "issue_number": 66,
+      "title": "Presentation: Full-screen sharing view",
+      "status_after_review": "Shipped",
+      "reviewed_on": "2026-11-13",
+      "assessment": "no_decisive_matching_release_in_scan",
+      "changelog_urls": [],
+      "note": "No decisive complete feature release matched in indexed August–November 2026 changelog titles and targeted historical checks; existing issue evidence/status retained."
+    }
+  ],
+  "caveat": "Matching a release only partially is not proof that the full feature request was delivered. No account-specific rollout access was asserted."
+}

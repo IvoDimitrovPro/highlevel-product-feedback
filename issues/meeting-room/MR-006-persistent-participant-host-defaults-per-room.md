@@ -29,3 +29,15 @@ Host defaults also need to preserve the annotation policy requested in MR-213 on
 ## November 2026 roadmap cross-reference
 
 Praveen confirmed a **sub-account-wide Default Meeting Settings** page planned for November, including co-hosts, automatic recording, open meetings and automatic transcription (MR-225). **This is not proof that the per-room permission defaults and override semantics requested here are committed**. Keep this item Acknowledged. [Source](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Meeting Room includes co-hosts and live participant microphone/camera/screen-sharing controls.
+
+**Scope decision:** Persistent per-room default policies and override semantics remain distinct; a later November roadmap promise is not proof of release.
+
+**Official sources:** [Introducing Meeting Room](https://ideas.gohighlevel.com/changelog/introducing-meeting-room).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

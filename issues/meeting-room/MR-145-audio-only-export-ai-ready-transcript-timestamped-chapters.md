@@ -49,3 +49,15 @@ This confirms provider-level capabilities, NOT that HighLevel Meeting Rooms expo
 **Correction to earlier report:** Praveen confirmed HighLevel uses Deepgram Nova-3 and provides specific-language selection and Auto detection. Ivo **personally confirmed Bulgarian works** after finding the correct settings. The earlier nonsensical English transcript is **not an unresolved Bulgarian-model support failure**; the remaining issue is that the language selector is hidden by the Start Transcribing UI, tracked separately in MR-220.
 
 The separate audio-only export, editable/TXT/Markdown/SRT/VTT transcript, chapters and automatic end-to-end processing requests in this issue are **still open**. Status remains New for those independent requirements. See [discussion](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-roadmap-community-discussion-2026-11-13.md).
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** The launched Meeting Room supports speaker-labeled transcripts and AI summaries alongside recordings.
+
+**Scope decision:** Audio-only export, export formats and AI-generated timestamped chapters remain unconfirmed; Bulgarian language works in the user's separate test.
+
+**Official sources:** [Introducing Meeting Room](https://ideas.gohighlevel.com/changelog/introducing-meeting-room).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

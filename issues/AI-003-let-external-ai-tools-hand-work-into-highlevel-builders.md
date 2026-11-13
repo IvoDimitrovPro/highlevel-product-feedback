@@ -36,3 +36,15 @@ Customers should be able to ask their chosen AI coding agent to build, configure
 ## HighLevel response
 
 No confirmed official commitment to the additional AI Studio native-resource and project-lifecycle API capabilities. Git synchronization has shipped, but the broader original request is only partially addressed.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Official LeadConnector MCP support can create/debug/publish Workflows in private beta.
+
+**Scope decision:** A generic supported external-agent handoff to Websites/Funnels and all AI Studio native builders is not established.
+
+**Official sources:** [Workflows Now in MCP – Ask Your AI Assistant to Build, Debug and Publish Workflows](https://ideas.gohighlevel.com/changelog/workflows-now-in-mcp-ask-your-ai-assistant-to-build-debug-and-publish-workflows).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

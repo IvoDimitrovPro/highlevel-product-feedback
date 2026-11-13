@@ -2,6 +2,11 @@
 
 This repository is the evidence archive. **GitHub Issues and the linked Project are the daily work surface.** One feedback item has one Issue permalink; duplicate sources are listed on that issue.
 
+## HighLevel official changelog reconciliation — November 13, 2026
+
+- [Detailed 95-Issue changelog review](references/ghl-changelog-review-2026-11-13.md) — 296 screened releases (Aug–Nov), 32 direct official articles read, 1 confirmed shipped, 25 partial and 69 with no decisive complete match.
+- [95-item machine-readable audit](sources/ghl-changelog-2026-11-13-audit.json) — status after review, source links, scope boundaries. **MR-201 Breakout Rooms** moved to Shipped.
+
 ## Meeting Room roadmap update — November 13, 2026
 
 - [Verified source and release-scope notes](sources/meeting-room-roadmap-community-discussion-2026-11-13.md) — Praveen's community replies and Ivo's Bulgarian transcription confirmation.

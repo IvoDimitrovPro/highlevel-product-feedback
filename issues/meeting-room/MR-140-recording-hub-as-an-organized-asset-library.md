@@ -19,3 +19,15 @@ Folders/collections, tags, search/filter, rename, move/copy, bulk actions, archi
 
 ## HighLevel response
 HighLevel agrees recordings should become reusable assets; folders/collections, search, permissions, ownership, and retention are useful.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Meeting History can show recordings and transcripts.
+
+**Scope decision:** The requested asset library with folders, tags, search, bulk controls, ownership and retention is not documented.
+
+**Official sources:** [Introducing Meeting Room](https://ideas.gohighlevel.com/changelog/introducing-meeting-room).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

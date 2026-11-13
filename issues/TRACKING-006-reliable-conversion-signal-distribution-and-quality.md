@@ -20,3 +20,15 @@ Offer managed browser + S2S event mapping, stable event_id deduplication, destin
 
 ## HighLevel response
 Not verified as end-to-end available or committed; parts of native pixel/CAPI functionality already exist.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** The Meta Pixel release fixes duplicate InitiateCheckout events per page and improves AddPaymentInfo values; existing CAPI/browser Meta dedup continues.
+
+**Scope decision:** Provider-wide reliably deduplicated conversion distribution with diagnosable failures/retries, source reconciliation and other channels is not proven.
+
+**Official sources:** [Meta Pixel: Improved InitiateCheckout Accuracy & Enhanced AddPaymentInfo Data](https://ideas.gohighlevel.com/changelog/meta-pixel-improved-initiatecheckout-accuracy-enhanced-addpaymentinfo-data).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

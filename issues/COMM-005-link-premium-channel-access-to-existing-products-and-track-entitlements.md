@@ -92,3 +92,15 @@ The shared Channel Settings/Edit Channel components use measurements from the li
 - [COMM-001: broader conditional access](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/9)
 
 Sources and current/proposed distinctions were reviewed on 2026-10-30. The implementation contract contains the detailed coverage and verification boundary.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Visible/hidden paid channels support recurring/one-time checkout; community plans bundle channel/course/event access.
+
+**Scope decision:** The requested binding to an existing external Product/Offer and its checkout, independent time-limited entitlements, attribution and refunds is not shown.
+
+**Official sources:** [Paid channels in Communities](https://ideas.gohighlevel.com/changelog/paid-channels-in-communities), [Multiple Pricing Plans in Communities](https://ideas.gohighlevel.com/changelog/multiple-pricing-plans-in-communities).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

@@ -18,3 +18,15 @@ Provide one tracking hub for Meta Pixel/CAPI, GTM, and other tracking values tha
 
 ## HighLevel response
 No direct response or resolution recorded.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Meta InitiateCheckout timing/deduplication and AddPaymentInfo payloads improved for configured funnels/websites/stores.
+
+**Scope decision:** One reusable cross-builder Pixel/CAPI/GTM tracking hub with verified Purchase diagnostics remains unconfirmed.
+
+**Official sources:** [Meta Pixel: Improved InitiateCheckout Accuracy & Enhanced AddPaymentInfo Data](https://ideas.gohighlevel.com/changelog/meta-pixel-improved-initiatecheckout-accuracy-enhanced-addpaymentinfo-data).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

@@ -33,3 +33,15 @@ External coding agents can build sophisticated app code, but cannot safely compl
 ## HighLevel response
 
 No confirmed API-based native Cloud DDL/RLS administration or tenant-safe Snapshot binding contract. The currently documented AI Studio Cloud activation and UI/AI-assisted operations are not equivalent to an external management API.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** AI Studio Cloud offers project-owned backend UI for DB/Auth/Storage and chat-driven schema creation.
+
+**Scope decision:** Supported external API/MCP for tenant-scoped DDL, RLS migrations, Cloud provisioning and lifecycle is not established.
+
+**Official sources:** [AI Studio Cloud: A Built-In Backend for Your Apps](https://ideas.gohighlevel.com/changelog/ai-studio-cloud-a-built-in-backend-for-your-apps).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

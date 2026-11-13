@@ -18,3 +18,15 @@ Support separate light and dark logo variants and use the appropriate asset auto
 
 ## HighLevel response
 No general cross-surface implementation verified.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** GoKollab web now supports independent light/dark palettes for Communities and Courses.
+
+**Scope decision:** Automatic switching between distinct light/dark LOGO assets across Community/Courses/Portal is not documented.
+
+**Official sources:** [Dark mode for Communities & Courses in GoKollab](https://ideas.gohighlevel.com/changelog/dark-mode-for-communities-courses-in-gokollab).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

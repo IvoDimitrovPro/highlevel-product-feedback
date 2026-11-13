@@ -18,3 +18,15 @@ Provide Instant Meeting and Schedule Meeting actions directly in the Meeting Roo
 
 ## HighLevel response
 Calendar supports appointment-specific meetings today. Instant Meeting and Schedule Meeting inside Meeting Room are planned; access/security will be configurable per meeting.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Meeting Room launched with a Start instant meeting action directly in the Meeting Room product.
+
+**Scope decision:** A Schedule Meeting action directly inside Meeting Room (rather than Calendars), with session-specific access options, is not established.
+
+**Official sources:** [Introducing Meeting Room](https://ideas.gohighlevel.com/changelog/introducing-meeting-room).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

@@ -18,3 +18,15 @@ A Calendar booking should create or link a specific native Meeting Room session 
 
 ## HighLevel response
 Planned Calendar integration maps each appointment to its own Meeting Session.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** A separate Meeting Room URL is automatically generated per Calendar appointment.
+
+**Scope decision:** Linking the exact appointment/contact to attendance, recordings, transcript and outcomes end-to-end is not established.
+
+**Official sources:** [Introducing Meeting Room](https://ideas.gohighlevel.com/changelog/introducing-meeting-room).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.

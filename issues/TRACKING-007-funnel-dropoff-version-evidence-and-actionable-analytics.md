@@ -20,3 +20,15 @@ Provide a step-agnostic journey graph from verified events: entry → page → C
 
 ## HighLevel response
 No confirmation of a complete cross-platform journey-and-actionable-analysis feature. Existing site/funnel and external analytics are already shipped and should remain the foundation.
+
+## Official changelog verification — 2026-11-13
+
+**Result:** Partial implementation — request remains open.
+
+**Already available:** Meta InitiateCheckout now fires when checkout starts, giving a clearer checkout-versus-payment abandonment signal.
+
+**Scope decision:** Full source/page-version funnel dropoff diagnostics, verifiable revenue and next-action recommendations are outside that narrow change.
+
+**Official sources:** [Meta Pixel: Improved InitiateCheckout Accuracy & Enhanced AddPaymentInfo Data](https://ideas.gohighlevel.com/changelog/meta-pixel-improved-initiatecheckout-accuracy-enhanced-addpaymentinfo-data).
+
+**Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.
