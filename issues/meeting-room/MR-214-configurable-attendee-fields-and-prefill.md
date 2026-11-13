@@ -1,4 +1,4 @@
-# MR-214 - Configurable direct-join fields and prefilled attendee identity
+# MR-214 — Configurable direct-join fields and prefilled attendee identity
 
 **Product:** Meeting Room
 **Type:** Feature

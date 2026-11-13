@@ -1,4 +1,4 @@
-# MR-215 - Customize post-meeting page and webinar redirects
+# MR-215 — Customize post-meeting page and webinar redirects
 
 **Product:** Meeting Room
 **Type:** Feature

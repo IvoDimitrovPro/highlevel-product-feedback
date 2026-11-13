@@ -1,4 +1,4 @@
-# MR-213 - Let hosts restrict annotations during screen sharing
+# MR-213 — Let hosts restrict annotations during screen sharing
 
 **Product:** Meeting Room
 **Type:** Access

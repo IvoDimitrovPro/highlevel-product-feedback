@@ -1,4 +1,4 @@
-# MR-216 - Remember attendee name and device preferences on rejoin
+# MR-216 — Remember attendee name and device preferences on rejoin
 
 **Product:** Meeting Room
 **Type:** Bug
