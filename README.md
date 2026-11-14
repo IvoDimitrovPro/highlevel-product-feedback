@@ -2,6 +2,12 @@
 
 This repository is the evidence archive. **GitHub Issues and the linked Project are the daily work surface.** One feedback item has one Issue permalink; duplicate sources are listed on that issue.
 
+## CRM redesign — live API/MCP/UI audit and flexible architecture (2026-11-14)
+
+- **[CRM-001 — Configurable record-centric CRM](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/96)**: object-neutral workspaces instead of an enforced Contact-first or Opportunity-first system.
+- [Real authenticated read-only UI, REST and MCP verification](sources/ghl-crm-live-readonly-audit-2026-11-14.md) — exact observed surfaces and limits, no client data shared.
+- [Complete engineering proposal](references/crm-flexible-record-centric-architecture-2026-11-14.md) — flexible object and relationship workflows, consistent API/MCP, financial identity, 12 use cases, 12 acceptance tests.
+
 ## HighLevel official changelog reconciliation — November 13, 2026
 
 - [Detailed 95-Issue changelog review](references/ghl-changelog-review-2026-11-13.md) — 296 screened releases (Aug–Nov), 32 direct official articles read, 1 confirmed shipped, 25 partial and 69 with no decisive complete match.
