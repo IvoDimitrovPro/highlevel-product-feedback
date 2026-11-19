@@ -20,3 +20,7 @@ Provide a versioned, scoped, multi-tenant event schema and read API for all supp
 
 ## HighLevel response
 No confirmation yet that this full raw-event interoperability contract is shipped or committed. Existing External Tracking analytics and workflow triggers are acknowledged as available; they are not the same as complete raw-event export.
+
+## Public demand and Town Hall question — November 19, 2026
+
+The [official External Tracking feedback board](https://ideas.gohighlevel.com/external-tracking) has other customers requesting **GET API access to analytics data and native Dashboard/Custom Report widgets**. HighLevel already provides external page/form analytics and a workflow event trigger; these are not equivalent to a documented permissioned read/export of the underlying anonymous event history. The exact full event query contract remains a **request**, not a proven platform absence in every internal endpoint. [Town Hall script](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/references/townhall-2026-11-19-media-tracking-chatwidget-brief.md); [our 16 acceptance tests](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/references/tracking-open-attribution-platform-2026-10-30.md).

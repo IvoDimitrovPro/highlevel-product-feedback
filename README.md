@@ -2,6 +2,11 @@
 
 This repository is the evidence archive. **GitHub Issues and the linked Project are the daily work surface.** One feedback item has one Issue permalink; duplicate sources are listed on that issue.
 
+## Today — Nov 19 Town Hall: Media Storage, External Tracking & Chat Widget
+
+- [Meeting speaking brief: prioritized questions and exact chat-ready scripts](references/townhall-2026-11-19-media-tracking-chatwidget-brief.md)
+- [Curated Zoom/community/history evidence and up-to-date feature scope](sources/townhall-media-tracking-widget-evidence-2026-11-19.md)
+
 ## CRM redesign — live API/MCP/UI audit and flexible architecture (2026-11-14)
 
 - **[CRM-001 — Configurable record-centric CRM](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/96)**: object-neutral workspaces instead of an enforced Contact-first or Opportunity-first system.

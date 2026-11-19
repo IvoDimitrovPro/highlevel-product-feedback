@@ -30,3 +30,7 @@ No direct response or resolution recorded.
 **Official sources:** [Meta Pixel: Improved InitiateCheckout Accuracy & Enhanced AddPaymentInfo Data](https://ideas.gohighlevel.com/changelog/meta-pixel-improved-initiatecheckout-accuracy-enhanced-addpaymentinfo-data).
 
 **Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.
+
+## September 17 roadmap reply; November 19 follow-up
+
+On September 17, Rahul Louis Antony replied to Ivo's reusable tracking-hub request that **event tracking shown in the Funnels/Websites Stats tab revamp was planned for that quarter**. This is explicitly **not** a commitment for one shared Meta Pixel/CAPI/GTM credential hub reused by Forms/Surveys/Quizzes/Stores. Narrower [Meta Pixel event improvements](https://ideas.gohighlevel.com/changelog/meta-pixel-improved-initiatecheckout-accuracy-enhanced-addpaymentinfo-data) already shipped. Keep the global hub open and ask for its **separate scope/ETA**. [Evidence](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/townhall-media-tracking-widget-evidence-2026-11-19.md).
