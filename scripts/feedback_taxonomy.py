@@ -11,6 +11,7 @@ AREA_TO_PREFIXES = {
     "Communities": ("COMM-",),
     "Courses": ("COURSE-",),
     "AI Studio": ("AI-",),
+    "Creator Studio": ("CREATOR-",),
     "Email": ("EMAIL-",),
     "Funnels & Forms": ("FORMS-",),
     "Checkout & Orders": ("CHECKOUT-", "ORDERS-"),
@@ -38,6 +39,7 @@ CROSS_AREA_IDS = {
     "Communities": {"MR-101", "MR-104", "MR-142", "WEB-001"},
     "Courses": {"AI-004", "COMM-003", "MR-101", "MR-104", "MR-141"},
     "AI Studio": {"EMAIL-004", "MR-007", "MR-145"},
+    "Creator Studio": set(),
     "Email": {"AI-002", "EMAIL-004"},
     "Funnels & Forms": {
         "CHECKOUT-001", "MR-101", "MR-214", "MR-215",
@@ -54,6 +56,7 @@ CROSS_AREA_IDS = {
     "SaaS & Affiliates": {"COMM-001", "COMM-005"},
     "Calendars & Events": {"MR-101", "MR-103", "MR-104", "MR-164", "MR-165", "WEB-001"},
     "Media & Recordings": {
+        "CREATOR-001",
         "MR-001", "MR-007", "MR-140", "MR-141", "MR-142", "MR-143",
         "MR-144", "MR-145", "MR-146", "MR-163", "MR-220", "MR-225", "MR-220", "MR-225", "MR-220", "MR-225",
     },
@@ -68,6 +71,7 @@ VIEW_NAMES = {
     "Communities": "Communities",
     "Courses": "Courses",
     "AI Studio": "AI & AI Studio",
+    "Creator Studio": "Creator Studio",
     "Email": "Email",
     "Funnels & Forms": "Funnels & Forms",
     "Checkout & Orders": "Checkout & Orders",

@@ -53,6 +53,7 @@ The stable ID, URL, evidence, and HighLevel reply live on that one issue.
 - [Communities](https://github.com/users/IvoDimitrovPro/projects/1/views/12)
 - [Courses](https://github.com/users/IvoDimitrovPro/projects/1/views/13)
 - [AI & AI Studio](https://github.com/users/IvoDimitrovPro/projects/1/views/14)
+- [Creator Studio](https://github.com/users/IvoDimitrovPro/projects/1/views/27)
 - [Email](https://github.com/users/IvoDimitrovPro/projects/1/views/15)
 - [Funnels & Forms](https://github.com/users/IvoDimitrovPro/projects/1/views/16)
 - [Checkout & Orders](https://github.com/users/IvoDimitrovPro/projects/1/views/17)

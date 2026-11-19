@@ -39,3 +39,7 @@ Praveen announced generic Recording Sharing planned for the week of November 16â
 ## Town Hall follow-up â€” November 16, 2026
 
 Praveen Gupta replied to another participant on November 16: **Media Library integration is planned**, and **recording sharing including chat/transcription was targeted for that same week**. This is a narrower roadmap statement than the original cross-product recording reuse requirement; no confirmed shipped Media Library link, stable asset identity, permissions or automatic update propagation was demonstrated. [Evidence](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/townhall-media-tracking-widget-evidence-2026-11-19.md).
+
+## November 19 Town Hall follow-up
+
+At **18:12:46** Ivo again requested **one reusable Media Storage asset across Courses, Meeting Rooms, Communities, Ask AI and other builders**, safe update propagation, transcripts/captions and retention of permissions/history. This is not evidence that the November 16 planned Media Library integration has been shipped. No direct written developer response appears in this saved meeting chat. [Evidence](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/townhall-2026-11-19-creator-tracking-media-evidence.md).
