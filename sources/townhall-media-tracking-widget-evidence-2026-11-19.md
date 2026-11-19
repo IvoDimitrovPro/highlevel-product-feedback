@@ -1,4 +1,4 @@
-﻿# Source notes — Media Storage, External Tracking, Chat Widget (2026-11-19)
+# Source notes — Media Storage, External Tracking, Chat Widget (2026-11-19)
 
 **Scope:** Curated excerpts from the owner's previously archived HighLevel Zoom Town Hall text chats and verified historical testing, cross-referenced with original GitHub issues. **Do not confuse participant requests, developer replies, or Otter automated action items with confirmed shipment.** No private meeting URLs, account IDs, contact data or customer information included.
 
@@ -41,4 +41,3 @@
 - [AI-003](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/4) — external-agent integration, AI Studio, Chat Widget/Cloud/API/MCP lifecycle.
 
 **Coverage limitation:** Archived Zoom chats and linked repo evidence were inspected; GHL private GoKollab community posts and all historical conversations have not been exhaustively enumerated. The direct participant discussion from the provided previous context and public Canny posts was incorporated where relevant.
-
