@@ -1,4 +1,4 @@
-# Source notes — Media Storage, External Tracking, Chat Widget (2026-11-19)
+﻿# Source notes — Media Storage, External Tracking, Chat Widget (2026-11-19)
 
 **Scope:** Curated excerpts from the owner's previously archived HighLevel Zoom Town Hall text chats and verified historical testing, cross-referenced with original GitHub issues. **Do not confuse participant requests, developer replies, or Otter automated action items with confirmed shipment.** No private meeting URLs, account IDs, contact data or customer information included.
 
@@ -20,7 +20,7 @@
 
 ## Past hands-on integration work (conversation/test records, not re-run during this preparatory scan)
 
-- **2026-10-16:** An external API-created HighLevel Live Chat Widget was reported as visible in normal CRM, and an end-to-end live message test (external React site to HighLevel Conversations and reply back) succeeded. The same **API-created widget was not selectable/listed in AI Studio's native Chat Widgets panel** in that tested flow. [Technical integration brief](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/references/ai-studio-external-agent-development-brief-2026-10-16.md), [project test notes](https://github.com/IvoDimitrovPro/roasflow-website-s-2/blob/main/PROVEN-EXTERNAL-LIVE-CHAT.md). This does **not** mean custom embedding via the official widget script fails.
+- **2026-10-16:** An external API-created HighLevel Live Chat Widget was reported as visible in normal CRM, and an end-to-end live message test (external React site to HighLevel Conversations and reply back) succeeded. The same **API-created widget was not selectable/listed in AI Studio's native Chat Widgets panel** in that tested flow. [Technical integration brief](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/references/ai-studio-external-agent-development-brief-2026-10-16.md). The underlying implementation repository is private and is not suitable for external sharing. This does **not** mean custom embedding via the official widget script fails.
 - **2026-11-10:** The official HighLevel External Tracking script was integrated into RoasFlow's offer site after consent and the receiving server acknowledged an event; no full verified purchase/refund-to-ROAS report was established from that basic acceptance test. Avoid disclosing the tracking ID or private client/event identifiers.
 - **2026-11-14:** LeadConnector REST and MCP read-only verification succeeded for a number of CRM resources, confirming account-scoped API access. It did **not** demonstrate raw External Tracking event retrieval or Chat Widget native AI Studio integration. [CRM API/MCP audit](ghl-crm-live-readonly-audit-2026-11-14.md).
 
@@ -41,3 +41,4 @@
 - [AI-003](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/4) — external-agent integration, AI Studio, Chat Widget/Cloud/API/MCP lifecycle.
 
 **Coverage limitation:** Archived Zoom chats and linked repo evidence were inspected; GHL private GoKollab community posts and all historical conversations have not been exhaustively enumerated. The direct participant discussion from the provided previous context and public Canny posts was incorporated where relevant.
+
