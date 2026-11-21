@@ -32,3 +32,7 @@ Ivo posted the **raw External Tracking GET API/MCP** request in the November 19 
 ## November 20, 2026 — Discovery follow-up, not yet shipped
 
 In the November 20 discovery call, Ivo described connecting external visitor events to **personalized promotions, dynamic countdown timers, repeat-product-page visits, Workflows and AI Studio**. The product contact's meeting notes list exploring behavioral tracking data access, API/MCP, consent and privacy with the External Tracking team. This is a **research/action item**, not an API release or roadmap deadline; the raw event access request remains New.
+
+## November 21, 2026 — OfferFlow personalization brief for HighLevel
+
+Following the November 20 Creator Studio / External Tracking product-discovery call, Shivangi Awasthi's meeting notes explicitly requested that Ivo **share a brief or prototype of the WordPress tracking/countdown/personalization plugin**. An evidence-based [OfferFlow v0.25.0-derived functional brief](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/references/offerflow-personalized-tracking-brief-for-shivangi-2026-11-21.md) now details user journeys, event/read APIs, behavior-based segments and triggers, quiz-granted and frozen deadline offers, Woo verified revenue, required consent/identity safeguards and nine demonstration tests. This complements rather than replaces the existing 16-test tracking proposal. This is **a requested product specification, not shipped GHL functionality or a committed delivery date**.

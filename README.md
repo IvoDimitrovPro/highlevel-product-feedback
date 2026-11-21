@@ -1,3 +1,9 @@
+## OfferFlow × External Tracking — Shivangi follow-up (2026-11-21)
+
+- **[Complete OfferFlow functional brief for Shivangi](references/offerflow-personalized-tracking-brief-for-shivangi-2026-11-21.md)** — consented user journeys, first-party events, visitor behavior segments, server-authoritative personalized offers/timers, AI Studio/Workflow integration, 9 acceptance demonstrations.
+- Builds on [the general open tracking/attribution engineering contract](references/tracking-open-attribution-platform-2026-10-30.md) without publishing proprietary code or sensitive customer records.
+- Fulfills the explicit **"Ivo: Share a brief or prototype of his WordPress plugin"** action item in Shivangi's November 20 discovery-call MoM; no email has yet been sent to the product manager.
+
 ## Nov 20–21 — Meeting Room Recording Sharing released
 
 - [Official release and source notes](sources/meeting-room-recording-sharing-release-2026-11-20.md) — secure share links, permission settings, transcripts and chat. Full Client Portal coverage remains open.
