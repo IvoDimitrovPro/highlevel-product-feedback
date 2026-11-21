@@ -21,3 +21,7 @@ Praveen (Team kollab) on 2026-11-13: reliability/performance, including these au
 
 ## Verification
 Based on the named participants' thread as supplied by the user on 2026-11-13. Release plans are not proof of shipped functionality. Thread permalink not provided.
+
+## 2026-11-20 — Partial stability improvements shipped
+
+The [Recording Sharing release](https://www.gokollab.com/meeting-rooms/home/posts/6b00729921bd52751e5d120a?commentId=6b0072e01ed0c5179d757433) reports improved audio/video stability and specific fixes for video backgrounds and inability to start recording or transcription. It is **not** quantitative verification that jitter, freezes/choppiness and connection reliability are fully solved. Retain broader Planned status pending direct tests or objective data. [Evidence](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-recording-sharing-release-2026-11-20.md).

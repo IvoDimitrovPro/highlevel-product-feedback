@@ -61,3 +61,7 @@ The separate audio-only export, editable/TXT/Markdown/SRT/VTT transcript, chapte
 **Official sources:** [Introducing Meeting Room](https://ideas.gohighlevel.com/changelog/introducing-meeting-room).
 
 **Checked:** 2026-11-13. A feature announced only in Labs/private beta is not automatically generally available.
+
+## 2026-11-20 — Recording transcript sharing available; advanced exports still open
+
+The [official release](https://www.gokollab.com/meeting-rooms/home/posts/6b00729921bd52751e5d120a?commentId=6b0072e01ed0c5179d757433) enables searchable transcript viewing and jumps to timestamps in the recording. It does **not** establish TXT/Markdown/SRT/VTT export, audio-only export, or automatic chapters. Ivo also asked for different/better Bulgarian transcription (Parakeet tested locally) and domain vocabulary hints; tracked in MR-229. [Evidence](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-recording-sharing-release-2026-11-20.md).

@@ -1,3 +1,11 @@
+## Nov 20–21 — Meeting Room Recording Sharing released
+
+- [Official release and source notes](sources/meeting-room-recording-sharing-release-2026-11-20.md) — secure share links, permission settings, transcripts and chat. Full Client Portal coverage remains open.
+- [MR-227 — separate recording/transcript/chat download permissions](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/100)
+- [MR-228 — customize shared recording summary and viewer sections](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/101)
+- [MR-229 — Bulgarian transcription model and custom vocabulary](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/102)
+- [MR-230 — customizable email notices and host opt-out](https://github.com/IvoDimitrovPro/highlevel-product-feedback/issues/103)
+
 # HighLevel Product Feedback — Ivo Dimitrov
 
 This repository is the evidence archive. **GitHub Issues and the linked Project are the daily work surface.** One feedback item has one Issue permalink; duplicate sources are listed on that issue.

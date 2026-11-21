@@ -37,3 +37,7 @@ Shivangi Awasthi acknowledged another attendee's question about **importing temp
 ## Verification
 
 [Exact chat excerpts and attribution](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/townhall-2026-11-19-creator-tracking-media-evidence.md). User's verbal statement is reported separately from the archived chat. Official precedents: [email template sharing](https://help.gohighlevel.com/support/solutions/articles/155000006716-whitelabel-email-template-sharing-step-by-step-guide), [Template Library](https://help.gohighlevel.com/support/solutions/articles/155000001304-add-custom-templates-to-template-library), [AI Studio project cloning](https://ideas.gohighlevel.com/changelog/clone-projects-in-ai-studio).
+
+## November 20, 2026 — Product discovery call and next steps
+
+During the 20 November HighLevel Creator Studio/External Tracking discovery call, Ivo again requested **source-editable HighLevel video templates** with independently editable text, graphics, animations and project tracks, plus **Bulgarian/Cyrillic localization** and reusable shareable templates. The product contact's subsequent meeting notes list these as inputs for Creator Studio feature evaluation and further technical exploration. This is **not a commitment to ship** or a confirmed ETA; status remains New.

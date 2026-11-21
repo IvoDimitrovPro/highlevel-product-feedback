@@ -21,3 +21,7 @@ Praveen on 2026-11-13: **will plan the stop-sharing feature for next week** (wee
 
 ## Verification
 Based on the named participants' thread as supplied by the user on 2026-11-13. Release plans are not proof of shipped functionality. Thread permalink not provided.
+
+## 2026-11-20 — Host stop sharing and annotation toggle still planned
+
+Praveen's comment on the [Recording Sharing release](https://www.gokollab.com/meeting-rooms/home/posts/6b00729921bd52751e5d120a?commentId=6b0072e01ed0c5179d757433) confirms host/co-host stop-sharing and disable-screen-annotation controls are **planned for November 2026**. No proof of shipping, so retain Planned. [Evidence](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/meeting-room-recording-sharing-release-2026-11-20.md).

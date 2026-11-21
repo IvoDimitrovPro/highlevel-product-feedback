@@ -28,3 +28,7 @@ The [official External Tracking feedback board](https://ideas.gohighlevel.com/ex
 ## November 19 Town Hall follow-up
 
 Ivo posted the **raw External Tracking GET API/MCP** request in the November 19 Town Hall Zoom chat at **18:11:37**, including anonymous sessions, custom events, historical data, revenue/refunds/ad spend and a link to the [full tracking proposal](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/references/tracking-open-attribution-platform-2026-10-30.md). **No direct written response** to this question appears in the saved chat; verbal replies were not transcribed. Status remains **New** until an engineering owner confirms scope. [Evidence](https://github.com/IvoDimitrovPro/highlevel-product-feedback/blob/main/sources/townhall-2026-11-19-creator-tracking-media-evidence.md).
+
+## November 20, 2026 — Discovery follow-up, not yet shipped
+
+In the November 20 discovery call, Ivo described connecting external visitor events to **personalized promotions, dynamic countdown timers, repeat-product-page visits, Workflows and AI Studio**. The product contact's meeting notes list exploring behavioral tracking data access, API/MCP, consent and privacy with the External Tracking team. This is a **research/action item**, not an API release or roadmap deadline; the raw event access request remains New.

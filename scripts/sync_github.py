@@ -125,7 +125,7 @@ def sync_project(rows: list[dict[str, str]], apply: bool) -> int:
     field_map = {f["name"]: f for f in fields}
     items = json.loads(gh(
         "project", "item-list", PROJECT_NUMBER, "--owner", OWNER,
-        "--format", "json", "--limit", "100"
+        "--format", "json", "--limit", "500"
     ))["items"]
     item_by_num = {
         str(i["content"]["number"]): i for i in items
